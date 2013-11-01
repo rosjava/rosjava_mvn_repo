@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# This regenerates the index for this maven repo.
+
+java -jar nexus-indexer-3.0.4-cli.jar -r . -i ./.index -d ./.index -n "rosjava_mvn_repo"
+

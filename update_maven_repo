@@ -1,0 +1,96 @@
+#!/bin/bash
+
+# This syncs with a locally deployed rosjava/android maven repo. Note that
+# this only syncs from the locally deployed repo -> this repo, not the
+# other way around.
+# 
+# Usage:
+#   sync_repo <dir of local maven repo>
+#
+# Make sure to add a / to the end of the argument if you want to exclude
+# that directory.
+#
+# bold_yellow="\E[1;33m"
+#reset="\033[1m\033[0m"
+yellow="\e[33m"
+reset="\e[0m"
+#echo -e "Output a ${yellow}coloured${reset} word."
+
+packages=()
+# Handle updated packages
+
+for metadata in `git ls-files -m | grep maven-metadata.xml$`
+do
+  package=$(dirname ${metadata})
+  git diff --exit-code --quiet -Sversion ${metadata}
+  if [ $? -ne 0 ]; then
+    packages+=(${package})
+  fi
+done
+
+# Now handle new packages
+for metadata in `git ls-files -o | grep maven-metadata.xml$`
+do
+  package=$(dirname ${metadata})
+  packages+=(${package})
+done
+
+# Stage the valid changes
+for i in "${packages[@]}"
+do
+  echo Staging...............$i
+  git add ${i} 
+done
+
+#read -p "Do you want to commit upgraded and new artifacts [y/N]? " -n 1 -r
+#echo    # (optional) move to a new line
+#if [[ $REPLY =~ ^[Yy]$ ]]
+#then
+#    read -p "Provide a commit message: " msg
+#    git commit -m "${msg}"
+#else
+#    exit 0
+#fi
+
+echo
+echo -en "${yellow}Do you want to commit upgraded and new artifacts [y/N]${reset}?"
+read commit
+case $commit in
+    [Yy]* ) read -p "Provide a commit message: " msg; git commit -m "${msg}";;
+    * ) exit 0;;
+esac
+
+echo
+echo -en "${yellow}Push to the github repository?[y/N]${reset}?"
+read push
+case $push in
+    [Yy]* ) git push;;
+    * ) exit 0;;
+esac
+
+# Cleaning
+echo 
+echo "Unstaged changes represent artifacts that haven't been"
+echo "upgraded, just 'touched'. It is safe to clean them."
+#read -p "Do you want to clean these [y/N]? " -n 1 -r
+#echo    # (optional) move to a new line
+#if [[ $REPLY =~ ^[Yy]$ ]]
+#then
+#    git checkout .
+#fi
+echo -en "${yellow}Do you want to clean these [y/N]?$reset "
+read clean
+case $clean in
+    [Yy]* ) git checkout .;;
+    * ) exit 0;;
+esac
+
+exit 0
+
+echo 
+echo -en "${yellow}Do you want to update the index [y/N]?$reset "
+read index
+case $index in
+    [Yy]* ) ./update_index;;
+    * ) exit 0;;
+esac
