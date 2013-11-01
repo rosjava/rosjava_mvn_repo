@@ -87,10 +87,10 @@ esac
 
 exit 0
 
-echo 
-echo -en "${yellow}Do you want to update the index [y/N]?$reset "
-read index
-case $index in
-    [Yy]* ) ./update_index;;
-    * ) exit 0;;
-esac
+#echo 
+#echo -en "${yellow}Do you want to update the index [y/N]?$reset "
+#read index
+#case $index in
+#    [Yy]* ) ./update_index;;
+#    * ) exit 0;;
+#esac
