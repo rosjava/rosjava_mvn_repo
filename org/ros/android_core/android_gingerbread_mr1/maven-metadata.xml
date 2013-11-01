@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ros.android_core</groupId>
+  <artifactId>android_gingerbread_mr1</artifactId>
+  <version>0.1.2</version>
+  <versioning>
+    <versions>
+      <version>0.1.2</version>
+    </versions>
+    <lastUpdated>20131101011729</lastUpdated>
+  </versioning>
+</metadata>
