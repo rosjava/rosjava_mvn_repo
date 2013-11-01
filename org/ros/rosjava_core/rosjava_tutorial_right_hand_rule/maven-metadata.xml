@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ros.rosjava_core</groupId>
+  <artifactId>rosjava_tutorial_right_hand_rule</artifactId>
+  <version>0.1.6</version>
+  <versioning>
+    <versions>
+      <version>0.1.6</version>
+    </versions>
+    <lastUpdated>20131101010631</lastUpdated>
+  </versioning>
+</metadata>
