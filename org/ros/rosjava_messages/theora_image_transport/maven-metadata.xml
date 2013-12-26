@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ros.rosjava_messages</groupId>
+  <artifactId>theora_image_transport</artifactId>
+  <version>1.8.21</version>
+  <versioning>
+    <versions>
+      <version>1.8.21</version>
+    </versions>
+    <lastUpdated>20131226010213</lastUpdated>
+  </versioning>
+</metadata>
