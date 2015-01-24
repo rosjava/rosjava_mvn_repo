@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ros.rosjava_messages</groupId>
+  <artifactId>nav2d_navigator</artifactId>
+  <version>0.1.311</version>
+  <versioning>
+    <versions>
+      <version>0.1.311</version>
+    </versions>
+    <lastUpdated>20150123235615</lastUpdated>
+  </versioning>
+</metadata>
