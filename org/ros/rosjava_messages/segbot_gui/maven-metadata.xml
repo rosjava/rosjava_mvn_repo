@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ros.rosjava_messages</groupId>
+  <artifactId>segbot_gui</artifactId>
+  <version>0.2.1</version>
+  <versioning>
+    <versions>
+      <version>0.2.1</version>
+    </versions>
+    <lastUpdated>20150201144553</lastUpdated>
+  </versioning>
+</metadata>

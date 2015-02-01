@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ros.rosjava_messages</groupId>
+  <artifactId>cob_pick_place_action</artifactId>
+  <version>0.5.1</version>
+  <versioning>
+    <versions>
+      <version>0.5.1</version>
+    </versions>
+    <lastUpdated>20150201144456</lastUpdated>
+  </versioning>
+</metadata>

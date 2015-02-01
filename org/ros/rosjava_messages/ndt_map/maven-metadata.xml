@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ros.rosjava_messages</groupId>
+  <artifactId>ndt_map</artifactId>
+  <version>1.0.28</version>
+  <versioning>
+    <versions>
+      <version>1.0.28</version>
+    </versions>
+    <lastUpdated>20150201144531</lastUpdated>
+  </versioning>
+</metadata>

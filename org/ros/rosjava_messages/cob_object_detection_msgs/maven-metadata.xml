@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ros.rosjava_messages</groupId>
+  <artifactId>cob_object_detection_msgs</artifactId>
+  <version>0.5.12</version>
+  <versioning>
+    <versions>
+      <version>0.5.12</version>
+    </versions>
+    <lastUpdated>20150201144455</lastUpdated>
+  </versioning>
+</metadata>

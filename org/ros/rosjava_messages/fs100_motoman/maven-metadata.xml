@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ros.rosjava_messages</groupId>
+  <artifactId>fs100_motoman</artifactId>
+  <version>0.1.5</version>
+  <versioning>
+    <versions>
+      <version>0.1.5</version>
+    </versions>
+    <lastUpdated>20150201144507</lastUpdated>
+  </versioning>
+</metadata>

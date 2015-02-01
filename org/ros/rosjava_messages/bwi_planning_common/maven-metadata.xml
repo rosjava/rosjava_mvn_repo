@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ros.rosjava_messages</groupId>
+  <artifactId>bwi_planning_common</artifactId>
+  <version>0.2.4</version>
+  <versioning>
+    <versions>
+      <version>0.2.4</version>
+    </versions>
+    <lastUpdated>20150201144448</lastUpdated>
+  </versioning>
+</metadata>

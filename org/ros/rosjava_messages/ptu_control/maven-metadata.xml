@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ros.rosjava_messages</groupId>
+  <artifactId>ptu_control</artifactId>
+  <version>1.1.1</version>
+  <versioning>
+    <versions>
+      <version>1.1.1</version>
+    </versions>
+    <lastUpdated>20150201144539</lastUpdated>
+  </versioning>
+</metadata>

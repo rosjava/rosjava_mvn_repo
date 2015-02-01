@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ros.rosjava_messages</groupId>
+  <artifactId>pr2_self_test_msgs</artifactId>
+  <version>1.0.7</version>
+  <versioning>
+    <versions>
+      <version>1.0.7</version>
+    </versions>
+    <lastUpdated>20150201144538</lastUpdated>
+  </versioning>
+</metadata>
