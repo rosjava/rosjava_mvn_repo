@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>rosapi</artifactId>
-  <version>0.5.1</version>
   <versioning>
+    <latest>0.7.8</latest>
+    <release>0.7.8</release>
     <versions>
+      <version>0.1.63</version>
+      <version>0.1.311</version>
       <version>0.5.1</version>
       <version>0.7.8</version>
     </versions>

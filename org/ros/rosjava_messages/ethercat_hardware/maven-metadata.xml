@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>ethercat_hardware</artifactId>
-  <version>1.8.5</version>
   <versioning>
+    <latest>1.8.11</latest>
+    <release>1.8.11</release>
     <versions>
+      <version>0.1.63</version>
+      <version>0.1.311</version>
       <version>1.8.5</version>
       <version>1.8.11</version>
     </versions>
