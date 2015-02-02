@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>jsk_pr2_startup</artifactId>
+  <version>0.0.4</version>
   <versioning>
-    <latest>0.0.4</latest>
-    <release>0.0.4</release>
     <versions>
       <version>0.0.4</version>
     </versions>
