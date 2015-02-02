@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>network_monitor_udp</artifactId>
+  <version>1.0.9</version>
   <versioning>
-    <latest>1.0.9</latest>
-    <release>1.0.9</release>
     <versions>
-      <version>0.1.311</version>
       <version>1.0.9</version>
     </versions>
-    <lastUpdated>20150123235615</lastUpdated>
+    <lastUpdated>20150201144531</lastUpdated>
   </versioning>
 </metadata>

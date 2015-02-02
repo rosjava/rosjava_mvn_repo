@@ -15,19 +15,19 @@
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>sensor_msgs</artifactId>
-      <version>1.11.6</version>
+      <version>1.10.6</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>tf</artifactId>
-      <version>1.11.4</version>
+      <version>1.10.8</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>roscpp</artifactId>
-      <version>1.11.10</version>
+      <version>1.10.12</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>
