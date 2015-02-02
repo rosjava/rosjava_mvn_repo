@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>brics_actuator</artifactId>
-  <version>0.5.0</version>
   <versioning>
+    <latest>0.5.3</latest>
+    <release>0.5.3</release>
     <versions>
-      <version>0.5.0</version>
       <version>0.1.63</version>
+      <version>0.1.311</version>
+      <version>0.5.0</version>
+      <version>0.5.3</version>
     </versions>
     <lastUpdated>20140118074052</lastUpdated>
   </versioning>

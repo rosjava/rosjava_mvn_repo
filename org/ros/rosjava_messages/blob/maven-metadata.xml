@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>blob</artifactId>
-  <version>0.1.0</version>
   <versioning>
+    <latest>0.1.311</latest>
+    <release>0.1.311</release>
     <versions>
       <version>0.1.0</version>
       <version>0.1.63</version>
+      <version>0.1.311</version>
     </versions>
     <lastUpdated>20140118074051</lastUpdated>
   </versioning>

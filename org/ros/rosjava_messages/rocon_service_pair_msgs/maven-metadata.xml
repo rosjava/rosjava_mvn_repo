@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>rocon_service_pair_msgs</artifactId>
-  <version>0.1.63</version>
   <versioning>
+    <latest>0.7.8</latest>
+    <release>0.7.8</release>
     <versions>
       <version>0.1.63</version>
+      <version>0.6.9</version>
+      <version>0.7.8</version>
     </versions>
     <lastUpdated>20140118074110</lastUpdated>
   </versioning>

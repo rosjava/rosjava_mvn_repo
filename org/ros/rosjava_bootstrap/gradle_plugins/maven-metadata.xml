@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <metadata>
   <groupId>org.ros.rosjava_bootstrap</groupId>
   <artifactId>gradle_plugins</artifactId>
   <versioning>
-    <latest>0.1.22</latest>
-    <release>0.1.22</release>
+    <latest>0.2.0</latest>
+    <release>0.2.0</release>
     <versions>
       <version>0.1.11</version>
       <version>0.1.12</version>
