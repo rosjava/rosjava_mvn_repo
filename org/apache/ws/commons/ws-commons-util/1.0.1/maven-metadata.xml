@@ -1,5 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <metadata>
-  <groupId>ws-commons-util</groupId>
+  <groupId>org.apache.ws.commons</groupId>
   <artifactId>ws-commons-util</artifactId>
   <version>1.0.1</version>
 </metadata>

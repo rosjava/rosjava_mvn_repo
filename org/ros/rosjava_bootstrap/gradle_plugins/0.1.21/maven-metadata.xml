@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata>
+  <groupId>org.ros.rosjava_bootstrap</groupId>
+  <artifactId>gradle_plugins</artifactId>
+  <version>0.1.21</version>
+</metadata>

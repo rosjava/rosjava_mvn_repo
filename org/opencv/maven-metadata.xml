@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <metadata>
   <groupId>org</groupId>
   <artifactId>opencv</artifactId>
-  <version>2.4.10</version>
   <versioning>
+    <latest>2.4.10</latest>
+    <release>2.4.10</release>
     <versions>
       <version>2.4.10</version>
     </versions>

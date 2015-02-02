@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata>
+  <groupId>org.ros.android_core</groupId>
+  <artifactId>android_acm_serial</artifactId>
+  <version>0.1.2</version>
+</metadata>

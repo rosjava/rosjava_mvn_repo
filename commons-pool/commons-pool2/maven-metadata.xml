@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <metadata>
-  <groupId>org.apache.commons</groupId>
+  <groupId>commons-pool</groupId>
   <artifactId>commons-pool2</artifactId>
   <versioning>
     <latest>2.3</latest>

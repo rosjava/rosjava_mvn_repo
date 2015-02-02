@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<metadata modelVersion="1.1.0">
+
+<metadata>
   <groupId>dnsjava</groupId>
   <artifactId>dnsjava</artifactId>
   <versioning>

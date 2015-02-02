@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <metadata>
   <groupId>com.github.rosjava.zeroconf_jmdns_suite</groupId>
   <artifactId>jmdns_tutorials</artifactId>
-  <version>0.1.13</version>
   <versioning>
+    <latest>0.2.0</latest>
+    <release>0.2.0</release>
     <versions>
       <version>0.1.13</version>
       <version>0.2.0</version>

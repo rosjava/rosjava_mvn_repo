@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <metadata>
   <groupId>com.github.robotics_in_concert.rocon_rosjava_core</groupId>
   <artifactId>rocon_interactions</artifactId>
-  <version>0.1.0</version>
   <versioning>
+    <latest>0.1.0</latest>
+    <release>0.1.0</release>
     <versions>
       <version>0.1.0</version>
     </versions>

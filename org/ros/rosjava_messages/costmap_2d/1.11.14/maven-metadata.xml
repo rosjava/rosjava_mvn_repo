@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata>
+  <groupId>org.ros.rosjava_messages</groupId>
+  <artifactId>costmap_2d</artifactId>
+  <version>1.11.14</version>
+</metadata>
