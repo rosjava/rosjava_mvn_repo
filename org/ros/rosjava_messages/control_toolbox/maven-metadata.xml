@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>control_toolbox</artifactId>
@@ -11,7 +10,8 @@
       <version>0.1.311</version>
       <version>1.10.3</version>
       <version>1.10.4</version>
+      <version>0.1.321</version>
     </versions>
-    <lastUpdated>20150201144459</lastUpdated>
+    <lastUpdated>20150205222723</lastUpdated>
   </versioning>
 </metadata>

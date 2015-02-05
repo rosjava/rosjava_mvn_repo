@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>pr2_controllers_msgs</artifactId>
@@ -11,7 +10,8 @@
       <version>1.10.6</version>
       <version>1.10.7</version>
       <version>1.10.8</version>
+      <version>0.1.321</version>
     </versions>
-    <lastUpdated>20150201144535</lastUpdated>
+    <lastUpdated>20150205222740</lastUpdated>
   </versioning>
 </metadata>

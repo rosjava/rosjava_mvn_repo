@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>map_msgs</artifactId>
@@ -9,6 +8,6 @@
     <versions>
       <version>0.0.2</version>
     </versions>
-    <lastUpdated>20150123235614</lastUpdated>
+    <lastUpdated>20150205222735</lastUpdated>
   </versioning>
 </metadata>

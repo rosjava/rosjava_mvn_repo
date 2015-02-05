@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>driver_base</artifactId>
@@ -10,6 +9,6 @@
       <version>1.6.7</version>
       <version>1.6.8</version>
     </versions>
-    <lastUpdated>20150201144501</lastUpdated>
+    <lastUpdated>20150205222724</lastUpdated>
   </versioning>
 </metadata>

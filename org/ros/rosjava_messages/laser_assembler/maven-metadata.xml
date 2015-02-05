@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>laser_assembler</artifactId>
@@ -11,6 +10,6 @@
       <version>1.7.1</version>
       <version>1.7.2</version>
     </versions>
-    <lastUpdated>20150201144524</lastUpdated>
+    <lastUpdated>20150205222732</lastUpdated>
   </versioning>
 </metadata>

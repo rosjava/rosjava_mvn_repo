@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>nodelet</artifactId>
@@ -11,6 +10,6 @@
       <version>1.8.6</version>
       <version>1.9.2</version>
     </versions>
-    <lastUpdated>20150201144531</lastUpdated>
+    <lastUpdated>20150205222737</lastUpdated>
   </versioning>
 </metadata>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>moveit_msgs</artifactId>
@@ -10,7 +9,8 @@
       <version>0.1.311</version>
       <version>0.5.2</version>
       <version>0.5.3</version>
+      <version>0.1.321</version>
     </versions>
-    <lastUpdated>20150123235614</lastUpdated>
+    <lastUpdated>20150205222736</lastUpdated>
   </versioning>
 </metadata>
