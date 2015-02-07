@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <metadata>
   <groupId>org.ros.rosjava_bootstrap</groupId>
   <artifactId>message_generation</artifactId>
@@ -19,6 +18,6 @@
       <version>0.1.22</version>
       <version>0.2.0</version>
     </versions>
-    <lastUpdated>20150202125744</lastUpdated>
+    <lastUpdated>20150206233141</lastUpdated>
   </versioning>
 </metadata>
