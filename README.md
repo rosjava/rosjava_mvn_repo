@@ -1,10 +1,9 @@
-The RosJava Maven Repo
-======================
+# The RosJava Maven Repo
 
 Maven artifact repository for rosjava dependencies and builds.
 
-Contents
-------------
+## Contents
+
 
 **From Dependent Repositories**
 
@@ -39,5 +38,10 @@ All official rosjava artifacts that are generated have their official maven home
 
 We also include some esoteric, but useful 3rd party dependencies here that the community may find useful. Some of these are custom built and added here. Others come from the following list of repositories:
 
+## Other Maven Repositories
 
+Some other maven repositories that may be of interest to ros users:
+
+* http://central.maven.org/maven2/org/bytedeco/javacpp-presets/opencv/
+* http://central.maven.org/maven2/nu/pattern/opencv/
 
