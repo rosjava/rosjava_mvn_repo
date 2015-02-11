@@ -2,12 +2,17 @@
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>p2os_urdf</artifactId>
-  <version>1.0.9</version>
   <versioning>
+    <latest>1.0.10</latest>
+    <release>1.0.10</release>
     <versions>
+      <version>0.1.63</version>
+      <version>0.1.311</version>
       <version>1.0.9</version>
       <version>1.0.10</version>
+      <version>0.1.321</version>
+      <version>0.1.322</version>
     </versions>
-    <lastUpdated>20150201144533</lastUpdated>
+    <lastUpdated>20150206233322</lastUpdated>
   </versioning>
 </metadata>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata>
+  <groupId>org.ros.android_core</groupId>
+  <artifactId>android_10</artifactId>
+  <versioning>
+    <latest>0.2.0</latest>
+    <release>0.2.0</release>
+    <versions>
+      <version>0.2.0</version>
+    </versions>
+    <lastUpdated>20150123143155</lastUpdated>
+  </versioning>
+</metadata>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Apache Commons">
+  <bannerLeft>
+    <name>Apache Commons</name>
+    <src>http://commons.apache.org/images/logo.png</src>
+    <href>http://commons.apache.org/</href>
+  </bannerLeft>
+  <publishDate position="left" format="dd MMMM yyyy" />
+  <version position="left" />
+  <skin>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-skin</artifactId>
+    <version>2</version>
+  </skin>
+  <body>
+    <links>
+      <item name="ApacheCon" href="http://www.apachecon.com/" />
+      <item name="Apache" href="http://www.apache.org" />
+      <item name="Commons" href="http://commons.apache.org/" />
+    </links>
+    <menu inherit="bottom" ref="reports" />
+    <menu name="Commons" inherit="bottom">
+      <item name="Home" href="http://commons.apache.org/" />
+      <item collapse="true" name="Components" href="http://commons.apache.org/components.html">
+        <item name="Full list..." href="http://commons.apache.org/components.html" />
+      </item>
+      <item collapse="true" name="Sandbox" href="http://commons.apache.org/sandbox/index.html">
+        <item name="Full list..." href="http://commons.apache.org/sandbox/index.html" />
+      </item>
+      <item collapse="true" name="Dormant" href="http://commons.apache.org/dormant/index.html">
+        <item name="Full list..." href="http://commons.apache.org/dormant/index.html" />
+      </item>
+      <item name="Volunteering" href="http://commons.apache.org/volunteering.html" />
+      <item name="Contributing Patches" href="http://commons.apache.org/patches.html" />
+      <item name="Building Components" href="http://commons.apache.org/building.html" />
+      <item name="Releasing Components" href="http://commons.apache.org/releases/index.html" />
+      <item name="Wiki" href="http://wiki.apache.org/commons/FrontPage" />
+    </menu>
+    <menu name="ASF" inherit="bottom">
+      <item name="Sponsorship" href="http://www.apache.org/foundation/sponsorship.html" />
+      <item name="Thanks" href="http://www.apache.org/foundation/thanks.html" />
+    </menu>
+  </body>
+</project>

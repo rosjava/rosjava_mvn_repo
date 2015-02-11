@@ -2,11 +2,14 @@
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>jsk_pr2_startup</artifactId>
-  <version>0.0.4</version>
   <versioning>
+    <latest>0.0.4</latest>
+    <release>0.0.4</release>
     <versions>
       <version>0.0.4</version>
+      <version>0.1.321</version>
+      <version>0.1.322</version>
     </versions>
-    <lastUpdated>20150201144522</lastUpdated>
+    <lastUpdated>20150206233320</lastUpdated>
   </versioning>
 </metadata>

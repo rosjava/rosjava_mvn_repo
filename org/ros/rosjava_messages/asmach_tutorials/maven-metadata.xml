@@ -2,11 +2,15 @@
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>asmach_tutorials</artifactId>
-  <version>1.0.9</version>
   <versioning>
+    <latest>1.0.9</latest>
+    <release>1.0.9</release>
     <versions>
+      <version>0.1.311</version>
       <version>1.0.9</version>
+      <version>0.1.321</version>
+      <version>0.1.322</version>
     </versions>
-    <lastUpdated>20150201144442</lastUpdated>
+    <lastUpdated>20150206233317</lastUpdated>
   </versioning>
 </metadata>

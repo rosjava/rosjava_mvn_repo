@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>rqt_cpp_common</artifactId>
-  <version>0.3.2</version>
   <versioning>
+    <latest>0.3.2</latest>
+    <release>0.3.2</release>
     <versions>
       <version>0.3.2</version>
     </versions>

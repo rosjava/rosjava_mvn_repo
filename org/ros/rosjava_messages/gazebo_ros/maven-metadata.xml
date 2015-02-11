@@ -2,12 +2,15 @@
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>gazebo_ros</artifactId>
-  <version>2.3.4</version>
   <versioning>
+    <latest>2.4.7</latest>
+    <release>2.4.7</release>
     <versions>
+      <version>2.3.3</version>
       <version>2.3.4</version>
       <version>2.3.7</version>
+      <version>2.4.7</version>
     </versions>
-    <lastUpdated>20150201144507</lastUpdated>
+    <lastUpdated>20150206233319</lastUpdated>
   </versioning>
 </metadata>

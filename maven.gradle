@@ -1,0 +1,22 @@
+rootProject.allprojects {
+    repositories {
+		maven {
+            url "https://github.com/talregev/rosjava_mvn_repo/raw/master/"
+        }
+		maven {
+            url "https://github.com/rosjava/rosjava_mvn_repo/raw/master/"
+        }
+		maven {
+            url "http://central.maven.org/maven2/"
+        }
+		maven {
+            url "https://repo.jfrog.org/artifactory/libs-releases/"
+        }
+		maven {
+            url "https://repo.maven.apache.org/maven2/"
+        }
+		maven {
+            url "https://repo1.maven.org/maven2/"
+        }
+	}
+}
