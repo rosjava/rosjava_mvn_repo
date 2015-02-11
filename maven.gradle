@@ -1,5 +1,6 @@
 rootProject.allprojects {
     repositories {
+		mavenCentral()
 		maven {
             url "https://github.com/talregev/rosjava_mvn_repo/raw/master/"
         }
