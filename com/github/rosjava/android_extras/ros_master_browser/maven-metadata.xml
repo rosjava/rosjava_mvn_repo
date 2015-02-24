@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.rosjava.android_extras</groupId>
+  <artifactId>ros_master_browser</artifactId>
+  <version>0.2.0</version>
+  <versioning>
+    <versions>
+      <version>0.2.0</version>
+    </versions>
+    <lastUpdated>20150224172011</lastUpdated>
+  </versioning>
+</metadata>

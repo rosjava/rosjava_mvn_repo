@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.rosjava.android_remocons</groupId>
+  <artifactId>rocon_nfc_writer</artifactId>
+  <version>0.2.0</version>
+  <versioning>
+    <versions>
+      <version>0.2.0</version>
+    </versions>
+    <lastUpdated>20150224172241</lastUpdated>
+  </versioning>
+</metadata>
