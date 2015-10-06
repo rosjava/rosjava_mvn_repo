@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ros.rosjava_messages</groupId>
+  <artifactId>p2os_msgs</artifactId>
+  <version>0.1.329</version>
+  <versioning>
+    <versions>
+      <version>0.1.329</version>
+    </versions>
+    <lastUpdated>20151006102850</lastUpdated>
+  </versioning>
+</metadata>

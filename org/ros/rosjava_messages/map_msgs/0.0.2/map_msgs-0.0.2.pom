@@ -9,25 +9,25 @@
     <dependency>
       <groupId>org.ros.rosjava_bootstrap</groupId>
       <artifactId>message_generation</artifactId>
-      <version>[0.1,)</version>
+      <version>[0.1,0.2)</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>std_msgs</artifactId>
-      <version>0.5.8</version>
+      <version>0.5.9</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>sensor_msgs</artifactId>
-      <version>1.10.2</version>
+      <version>1.11.8</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>nav_msgs</artifactId>
-      <version>1.10.2</version>
+      <version>1.11.8</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>

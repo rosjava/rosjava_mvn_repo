@@ -15,13 +15,13 @@
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>actionlib_msgs</artifactId>
-      <version>1.11.6</version>
+      <version>1.11.8</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>roscpp</artifactId>
-      <version>1.11.10</version>
+      <version>1.11.13</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>

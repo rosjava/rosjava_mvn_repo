@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ros.rosjava_messages</groupId>
+  <artifactId>m4atx_battery_monitor</artifactId>
+  <version>0.1.329</version>
+  <versioning>
+    <versions>
+      <version>0.1.329</version>
+    </versions>
+    <lastUpdated>20151006102849</lastUpdated>
+  </versioning>
+</metadata>
