@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.ros.rosjava_messages</groupId>
+  <artifactId>soem_ebox</artifactId>
+  <version>0.1.329</version>
+  <versioning>
+    <versions>
+      <version>0.1.329</version>
+    </versions>
+    <lastUpdated>20151006102851</lastUpdated>
+  </versioning>
+</metadata>
