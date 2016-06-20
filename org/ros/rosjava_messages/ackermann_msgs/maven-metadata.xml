@@ -2,12 +2,13 @@
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>ackermann_msgs</artifactId>
-  <version>0.9.0</version>
+  <version>1.0.1</version>
   <versioning>
     <versions>
-      <version>0.9.0</version>
+      <version>1.0.1</version>
       <version>0.9.1</version>
+      <version>0.9.0</version>
     </versions>
-    <lastUpdated>20150201144435</lastUpdated>
+    <lastUpdated>20160613130326</lastUpdated>
   </versioning>
 </metadata>
