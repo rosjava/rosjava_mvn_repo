@@ -29,6 +29,7 @@ Many of the artifacts here are collected from a variety of other repositories to
 * http://central.maven.org/maven2/commons-pool/commons-pool/
 * http://central.maven.org/maven2/org/apache/commons/commons-pool2/
 * http://central.maven.org/maven2/dnsjava/dnsjava/
+* http://jcenter.bintray.com/com/android/tools/build/gradle/
 
 **Official RosJava Artifacts**
 
