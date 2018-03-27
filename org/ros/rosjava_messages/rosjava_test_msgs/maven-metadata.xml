@@ -2,13 +2,13 @@
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>rosjava_test_msgs</artifactId>
-  <version>0.1.27</version>
   <versioning>
+    <release>0.2.1</release>
     <versions>
       <version>0.1.27</version>
       <version>0.2.0</version>
       <version>0.2.1</version>
     </versions>
-    <lastUpdated>20160524092159</lastUpdated>
+    <lastUpdated>20180327040700</lastUpdated>
   </versioning>
 </metadata>
