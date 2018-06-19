@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.ros.rosjava_messages</groupId>
+  <artifactId>laser_assembler</artifactId>
+  <version>1.7.4</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.ros.rosjava_bootstrap</groupId>
+      <artifactId>message_generation</artifactId>
+      <version>[0.3,0.4)</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ros.rosjava_messages</groupId>
+      <artifactId>sensor_msgs</artifactId>
+      <version>1.12.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ros.rosjava_messages</groupId>
+      <artifactId>tf</artifactId>
+      <version>1.11.9</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ros.rosjava_messages</groupId>
+      <artifactId>roscpp</artifactId>
+      <version>1.12.13</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
