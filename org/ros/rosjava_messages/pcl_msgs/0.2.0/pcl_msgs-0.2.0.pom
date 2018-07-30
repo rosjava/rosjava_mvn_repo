@@ -10,19 +10,19 @@
       <groupId>org.ros.rosjava_bootstrap</groupId>
       <artifactId>message_generation</artifactId>
       <version>[0.2,0.3)</version>
-      <scope>compile</scope>
+      <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>sensor_msgs</artifactId>
-      <version>1.11.9</version>
-      <scope>compile</scope>
+      <version>1.11.10</version>
+      <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>std_msgs</artifactId>
       <version>0.5.10</version>
-      <scope>compile</scope>
+      <scope>runtime</scope>
     </dependency>
   </dependencies>
 </project>
