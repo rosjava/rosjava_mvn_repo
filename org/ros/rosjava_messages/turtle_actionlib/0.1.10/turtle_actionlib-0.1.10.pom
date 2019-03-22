@@ -21,13 +21,13 @@
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>actionlib_msgs</artifactId>
-      <version>1.12.6</version>
+      <version>1.12.7</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>roscpp</artifactId>
-      <version>1.12.13</version>
+      <version>1.12.14</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -45,7 +45,7 @@
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>geometry_msgs</artifactId>
-      <version>1.12.6</version>
+      <version>1.12.7</version>
       <scope>runtime</scope>
     </dependency>
   </dependencies>

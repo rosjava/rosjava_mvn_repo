@@ -15,7 +15,7 @@
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>dynamic_reconfigure</artifactId>
-      <version>1.5.49</version>
+      <version>1.5.50</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>

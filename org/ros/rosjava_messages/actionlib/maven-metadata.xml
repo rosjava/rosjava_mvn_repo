@@ -2,8 +2,8 @@
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>actionlib</artifactId>
-  <version>1.10.3</version>
   <versioning>
+    <release>1.11.13</release>
     <versions>
       <version>1.10.3</version>
       <version>1.11.3</version>
@@ -11,6 +11,6 @@
       <version>1.11.9</version>
       <version>1.11.13</version>
     </versions>
-    <lastUpdated>20180611151923</lastUpdated>
+    <lastUpdated>20190322141451</lastUpdated>
   </versioning>
 </metadata>
