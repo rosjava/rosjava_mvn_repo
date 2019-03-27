@@ -3,12 +3,13 @@
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>turtle_actionlib</artifactId>
   <versioning>
-    <release>0.1.10</release>
+    <release>0.1.11</release>
     <versions>
       <version>0.1.7</version>
       <version>0.1.8</version>
       <version>0.1.10</version>
+      <version>0.1.11</version>
     </versions>
-    <lastUpdated>20190322141539</lastUpdated>
+    <lastUpdated>20190327173027</lastUpdated>
   </versioning>
 </metadata>
