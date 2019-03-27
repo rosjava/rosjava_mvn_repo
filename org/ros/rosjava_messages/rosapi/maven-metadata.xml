@@ -2,13 +2,14 @@
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>rosapi</artifactId>
-  <version>0.5.1</version>
   <versioning>
+    <release>0.10.1</release>
     <versions>
       <version>0.5.1</version>
       <version>0.7.8</version>
       <version>0.9.0</version>
+      <version>0.10.1</version>
     </versions>
-    <lastUpdated>20180619164512</lastUpdated>
+    <lastUpdated>20190322141334</lastUpdated>
   </versioning>
 </metadata>
