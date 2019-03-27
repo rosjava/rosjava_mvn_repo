@@ -15,19 +15,19 @@
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>dynamic_reconfigure</artifactId>
-      <version>1.5.50</version>
+      <version>1.6.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>nodelet</artifactId>
-      <version>1.9.14</version>
+      <version>1.9.16</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.ros.rosjava_messages</groupId>
       <artifactId>roscpp</artifactId>
-      <version>1.12.14</version>
+      <version>1.14.3</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>

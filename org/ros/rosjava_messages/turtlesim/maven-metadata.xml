@@ -3,14 +3,15 @@
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>turtlesim</artifactId>
   <versioning>
-    <release>0.7.1</release>
+    <release>0.9.0</release>
     <versions>
       <version>0.4.2</version>
       <version>0.4.3</version>
       <version>0.5.2</version>
       <version>0.5.5</version>
       <version>0.7.1</version>
+      <version>0.9.0</version>
     </versions>
-    <lastUpdated>20190322141538</lastUpdated>
+    <lastUpdated>20190327173025</lastUpdated>
   </versioning>
 </metadata>
