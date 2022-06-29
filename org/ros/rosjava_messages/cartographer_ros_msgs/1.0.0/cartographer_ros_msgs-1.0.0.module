@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "cartographer_ros_msgs",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cartographer_ros_msgs-1.0.0.jar",
+          "url": "cartographer_ros_msgs-1.0.0.jar",
+          "size": 27257,
+          "sha512": "1b539254bed1d83187754bd56ff048868339966c3336814c868d2bd2ac5d8ee7bc521066aa01f2068b051d9092d5d7ffc712dd554eaa86d556bbb00094e4bd37",
+          "sha256": "079087797f015e2d0d0ac125056e352d69676a70d327eacaa296537344359b03",
+          "sha1": "2ba28ec7d4ff949bb65bc107c460751194289c8b",
+          "md5": "7a5c757cbce28b40dde556406a32816a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cartographer_ros_msgs-1.0.0.jar",
+          "url": "cartographer_ros_msgs-1.0.0.jar",
+          "size": 27257,
+          "sha512": "1b539254bed1d83187754bd56ff048868339966c3336814c868d2bd2ac5d8ee7bc521066aa01f2068b051d9092d5d7ffc712dd554eaa86d556bbb00094e4bd37",
+          "sha256": "079087797f015e2d0d0ac125056e352d69676a70d327eacaa296537344359b03",
+          "sha1": "2ba28ec7d4ff949bb65bc107c460751194289c8b",
+          "md5": "7a5c757cbce28b40dde556406a32816a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cartographer_ros_msgs-1.0.0-sources.jar",
+          "url": "cartographer_ros_msgs-1.0.0-sources.jar",
+          "size": 23782,
+          "sha512": "eccb48cdc189ffe5ab7452aa8b2f200c5f4ad1089617d0504afc38b52976dae1378bbeaf5e7533e3dabf3e7e32702e4f512770984beee2f1d80814218ffe1d71",
+          "sha256": "aaf1117e6a3d66229f81d1dd4221602425ff1de5b7f580095e63b1f0d60cca80",
+          "sha1": "2c43167d095c9571eae937499df6a560878cc7b3",
+          "md5": "21c9ca39fbfa15921aa91014df618fd3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cartographer_ros_msgs-1.0.0-javadoc.jar",
+          "url": "cartographer_ros_msgs-1.0.0-javadoc.jar",
+          "size": 197961,
+          "sha512": "2d155f7cb2394422fe4908d2a4a33224b5cccb98314bfa201329719b3967a93eb17f4d5dc2c9d13e9549a2b8d8d925723d3b412ed1b761b53443626f5e186c06",
+          "sha256": "e297fa951a4dc7acc784fc84b2eecd8ae6a74416febc0155f63ed27619e68944",
+          "sha1": "64f2f9e35ac1d9440b3efb20453ac8446cd0a1e8",
+          "md5": "b916fc4cc7485e06f12fca8b16ab1a78"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "geometry_msgs",
+    "version": "1.13.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "geometry_msgs-1.13.0.jar",
+          "url": "geometry_msgs-1.13.0.jar",
+          "size": 15698,
+          "sha512": "778891c28af956c11ee98859f03715079fecdef802c51c6a896eed3122b5b21f5376f04b86e39da65004f76bc02e926e2105f375b02ecaa01031d5f7352eeef3",
+          "sha256": "84eb52c1f137b3744c4908d8db52d5e5901b27c8edac0dea4843847dea3c0feb",
+          "sha1": "fa6f5249f51b0053ca5f3b7b2762ad4a7c86742a",
+          "md5": "6ca96d26c6a9269334a8a89a639effb4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "geometry_msgs-1.13.0.jar",
+          "url": "geometry_msgs-1.13.0.jar",
+          "size": 15698,
+          "sha512": "778891c28af956c11ee98859f03715079fecdef802c51c6a896eed3122b5b21f5376f04b86e39da65004f76bc02e926e2105f375b02ecaa01031d5f7352eeef3",
+          "sha256": "84eb52c1f137b3744c4908d8db52d5e5901b27c8edac0dea4843847dea3c0feb",
+          "sha1": "fa6f5249f51b0053ca5f3b7b2762ad4a7c86742a",
+          "md5": "6ca96d26c6a9269334a8a89a639effb4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geometry_msgs-1.13.0-sources.jar",
+          "url": "geometry_msgs-1.13.0-sources.jar",
+          "size": 12943,
+          "sha512": "9d8f2b1eb1cf2233bdae0883e20ab1468fc70e4cdc540f6078317b08c949b16f89e0bc4b0e3514363cdee1ab3a93f3661ef03b1f25207104d97533af7c08d4b8",
+          "sha256": "d87e71ee9beec22ca596017c2a1a3b9f5c4337593fd259878a0bdcfd49fac531",
+          "sha1": "925b76189a69fd0eb7f50869c3d7457831025d73",
+          "md5": "8b4db2247a3bd8f7e48fca96b5b17f99"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geometry_msgs-1.13.0-javadoc.jar",
+          "url": "geometry_msgs-1.13.0-javadoc.jar",
+          "size": 184997,
+          "sha512": "76581af251715937a25944da7ea9469ee90df626b0558cf67ecc42ad19e15bebf1165c37c3b18c2be4573714efa3c978b3d07554a566e91516b359da3aacd057",
+          "sha256": "7d5d55384d7d4aca70d7d88c12027542047fff5ef803067ef692402d854df46a",
+          "sha1": "18a30d0812bf5b23f10a9674e23bc1f29c38c305",
+          "md5": "3cdba14f8f8e0261a239d8247997acd6"
+        }
+      ]
+    }
+  ]
+}

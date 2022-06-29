@@ -1,0 +1,188 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "turtle_actionlib",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib",
+          "version": {
+            "requires": "1.13.2"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "turtlesim",
+          "version": {
+            "requires": "0.10.2"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "turtle_actionlib-0.2.0.jar",
+          "url": "turtle_actionlib-0.2.0.jar",
+          "size": 5049,
+          "sha512": "3f8b3e5534463ada3e28c1dfecb29bfe3dd75167e1cc2c43dbfbb08aa4eeee54bde20702921dc2734fe98fa691e5738f6119aa0a9b8b945795cb976db64fd718",
+          "sha256": "7068cb32dd066f242dea0324ccabbbe79aa47d64dca8ac5befddaedba067735a",
+          "sha1": "4814e002acf4bb5859f4eb4b8080dc38af9126d3",
+          "md5": "f2137e47c99e9bb2a8ba2e17caf8c0c1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib",
+          "version": {
+            "requires": "1.13.2"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "turtlesim",
+          "version": {
+            "requires": "0.10.2"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "turtle_actionlib-0.2.0.jar",
+          "url": "turtle_actionlib-0.2.0.jar",
+          "size": 5049,
+          "sha512": "3f8b3e5534463ada3e28c1dfecb29bfe3dd75167e1cc2c43dbfbb08aa4eeee54bde20702921dc2734fe98fa691e5738f6119aa0a9b8b945795cb976db64fd718",
+          "sha256": "7068cb32dd066f242dea0324ccabbbe79aa47d64dca8ac5befddaedba067735a",
+          "sha1": "4814e002acf4bb5859f4eb4b8080dc38af9126d3",
+          "md5": "f2137e47c99e9bb2a8ba2e17caf8c0c1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "turtle_actionlib-0.2.0-sources.jar",
+          "url": "turtle_actionlib-0.2.0-sources.jar",
+          "size": 4245,
+          "sha512": "d03c0ddbc30fd0b307b131d5d881d09d39ad47b911899b7106dd1eb01de31750af993cb268ce2d777b4eaaa8eb2cc8d6e4c0dd9b69ba2b4d263ab4fcc2d69783",
+          "sha256": "3e060469c56402260e0c967a982a399fbbc02d7fbe8f21574effdec9f888f197",
+          "sha1": "c1036ee7f03fd959ddf9fbfe9448dd97600671b5",
+          "md5": "68abdd60f3d9e5b36d4acb29aedd4f62"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "turtle_actionlib-0.2.0-javadoc.jar",
+          "url": "turtle_actionlib-0.2.0-javadoc.jar",
+          "size": 128887,
+          "sha512": "8b1367a4c54c854ac69000fb09ddfb7003968864885a20dc17ce4b159c170fffceeed28e037be53125f0251ce53b5ff9c129ac5dfa272d95d9ddfb6defda0e0c",
+          "sha256": "eb1f2b59382c8bb8dc15dcdc1bb5dbbe018ffe2ad6d596492048b2f2ff0eb49e",
+          "sha1": "ff72605495074babef7df16477f96ef88ab09386",
+          "md5": "d14b510e93ffa9777e2228800d915335"
+        }
+      ]
+    }
+  ]
+}

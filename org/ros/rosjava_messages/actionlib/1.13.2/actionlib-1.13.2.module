@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "actionlib",
+    "version": "1.13.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "actionlib-1.13.2.jar",
+          "url": "actionlib-1.13.2.jar",
+          "size": 12370,
+          "sha512": "7c090b467fa40050c2371e2b31477d895975a48e8589dca9392bd579142e196f1ae107a892aad016a3600f57f4acfc6b7f483e96652158b441481199fe57998a",
+          "sha256": "f4c00188c639a49b8a9a43e0c300fb5c2f70eb9a4df11a0f31fc9f7f3860534d",
+          "sha1": "9f8213411d6a6698efe8ca2ca77436f064663d90",
+          "md5": "b82439bc1438b9084ac2532501cf92ce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "actionlib-1.13.2.jar",
+          "url": "actionlib-1.13.2.jar",
+          "size": 12370,
+          "sha512": "7c090b467fa40050c2371e2b31477d895975a48e8589dca9392bd579142e196f1ae107a892aad016a3600f57f4acfc6b7f483e96652158b441481199fe57998a",
+          "sha256": "f4c00188c639a49b8a9a43e0c300fb5c2f70eb9a4df11a0f31fc9f7f3860534d",
+          "sha1": "9f8213411d6a6698efe8ca2ca77436f064663d90",
+          "md5": "b82439bc1438b9084ac2532501cf92ce"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "actionlib-1.13.2-sources.jar",
+          "url": "actionlib-1.13.2-sources.jar",
+          "size": 10157,
+          "sha512": "7cc51a69cd7336377dfbb8a78784da0c4e08e24c3e30591784e188c6ada36fdab6f4c2617139404f7a64bdcca5f7dde39cf95843447fbba74f4ca9b4932bea98",
+          "sha256": "31f96b24852de3d55ba40af1259541e978c44ea8f4465884c19f0dd62f6c1da7",
+          "sha1": "c2adb363ad0df4b10ea86e85507bb92e10dab35d",
+          "md5": "1e7982d4737f7bb263924a9badf22249"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "actionlib-1.13.2-javadoc.jar",
+          "url": "actionlib-1.13.2-javadoc.jar",
+          "size": 166202,
+          "sha512": "555e6270f6ed168d3eb1c0b431e9febb61d5e2ce42589d84c1d48448865e611ccd199a9e2e85be2eabe2a95a3e6f0cdfba9ae528361e80acc5e4abd42c20c78e",
+          "sha256": "c2c6a02e1410c77874340ea7ed9f898fce6666eb5e9d6c44560891ecdb5c010a",
+          "sha1": "aa554f5d009ff23bce18925a0e6f8f3158983ac6",
+          "md5": "69ad80d1458869ce2714787cc79c6661"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "rosapi",
+    "version": "0.11.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "rosapi-0.11.12.jar",
+          "url": "rosapi-0.11.12.jar",
+          "size": 29607,
+          "sha512": "1c72a08b95c3f376d3e064237a3fffdc14d8f0bb937478f2dc000ffed31193f1ee937e69cc599dd79c73ff243aa60f2ead81f41945dd3152cf845a3bf8dd44bc",
+          "sha256": "61ad0744d9dde28759fbaabfa5bf43542b13ed61f8eb10ea100d54c82f8c908b",
+          "sha1": "c039ab80df762b02ec0d446ae47e9b54ff288f87",
+          "md5": "3bd13215f5014fab56311fd3c7567e4a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rosapi-0.11.12.jar",
+          "url": "rosapi-0.11.12.jar",
+          "size": 29607,
+          "sha512": "1c72a08b95c3f376d3e064237a3fffdc14d8f0bb937478f2dc000ffed31193f1ee937e69cc599dd79c73ff243aa60f2ead81f41945dd3152cf845a3bf8dd44bc",
+          "sha256": "61ad0744d9dde28759fbaabfa5bf43542b13ed61f8eb10ea100d54c82f8c908b",
+          "sha1": "c039ab80df762b02ec0d446ae47e9b54ff288f87",
+          "md5": "3bd13215f5014fab56311fd3c7567e4a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rosapi-0.11.12-sources.jar",
+          "url": "rosapi-0.11.12-sources.jar",
+          "size": 23796,
+          "sha512": "fa469522822f8da6de881fcf18917eb78fac7f29afab6a733270ba58816ce87e5b8a5e636bc9697dae3acd515435947821871ce6d144b28c2c8b38a219bbdc99",
+          "sha256": "d734f56d849efbfb5f106021b6e13de41f81d1bc4a29161e8b9de8cbdecd693f",
+          "sha1": "6375cf2cbfb3ffc3d904d8bae56b5b393f16b118",
+          "md5": "cc29a8609526deddeeb7c4f35c729d55"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rosapi-0.11.12-javadoc.jar",
+          "url": "rosapi-0.11.12-javadoc.jar",
+          "size": 280221,
+          "sha512": "e6ae0a22fd8cc3d76a853775bc1c5e432a494df62f7e42dae43c072898f1f8c577457a9a29aa48bd3c0608a02357191487bc7df12ad173b0fbfd5d7a7f016129",
+          "sha256": "0e6143b0e67d5e5b1d899c9ab787eb8dce098cbd0228c36474688776c569191a",
+          "sha1": "279ad93217829f477d2f2f2ec371b9eaa0258398",
+          "md5": "00ace551c583087801b9e4662108b17b"
+        }
+      ]
+    }
+  ]
+}

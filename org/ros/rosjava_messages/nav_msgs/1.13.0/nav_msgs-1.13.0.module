@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "nav_msgs",
+    "version": "1.13.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nav_msgs-1.13.0.jar",
+          "url": "nav_msgs-1.13.0.jar",
+          "size": 10666,
+          "sha512": "c3c575cef356def35b1096f7ec602d40e4c4fcaeeb07978c15c9c4a4a37bb880b62036dcb7b40a63b64613b89159ae235ccc15c8ff5a85e833d409456dc072d8",
+          "sha256": "830bdea0d5d4b32cfc4d677d6fdfc4b0694710978e110cb3116ba606fc05ee58",
+          "sha1": "663bf5c5eddb58a3c73a5b7c5d1cf1f9cec10781",
+          "md5": "6a1db1e337b40523cfe325cda9027aa7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nav_msgs-1.13.0.jar",
+          "url": "nav_msgs-1.13.0.jar",
+          "size": 10666,
+          "sha512": "c3c575cef356def35b1096f7ec602d40e4c4fcaeeb07978c15c9c4a4a37bb880b62036dcb7b40a63b64613b89159ae235ccc15c8ff5a85e833d409456dc072d8",
+          "sha256": "830bdea0d5d4b32cfc4d677d6fdfc4b0694710978e110cb3116ba606fc05ee58",
+          "sha1": "663bf5c5eddb58a3c73a5b7c5d1cf1f9cec10781",
+          "md5": "6a1db1e337b40523cfe325cda9027aa7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nav_msgs-1.13.0-sources.jar",
+          "url": "nav_msgs-1.13.0-sources.jar",
+          "size": 8689,
+          "sha512": "05d46bdd36c43ae3273d695a2e58803cf78da3869f448b2afdf07b407455a97e3069e69929336632bae9e264b7be3a5331660b80d5f573a1c06445f6ff9f13b8",
+          "sha256": "ab84f48767242b27b742e7fa53d395ad03bb8b411a5e2824a60fba5a15f92879",
+          "sha1": "ed7a6ef6901c65dd5283bb8fa4527b81fe22a44e",
+          "md5": "ff15640409cd87486afb3b8ff4989449"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nav_msgs-1.13.0-javadoc.jar",
+          "url": "nav_msgs-1.13.0-javadoc.jar",
+          "size": 159099,
+          "sha512": "ed9144b4b23deeb1992120b4de8efff2d0837493f0e81579011a106d52ec3b82ce39bddcc67566729abd90fa4b7057c06e017ce155f9e177d229423ac5c46f85",
+          "sha256": "73473795e83919d81455cf432888a919e14b7f8657c49d9fa33fdef9c0e2ac7b",
+          "sha1": "94102feaee93428c1bb2ec557e9a3e41fb8acd78",
+          "md5": "d9e5cb70b8d7ad02c5b48281bac554bc"
+        }
+      ]
+    }
+  ]
+}

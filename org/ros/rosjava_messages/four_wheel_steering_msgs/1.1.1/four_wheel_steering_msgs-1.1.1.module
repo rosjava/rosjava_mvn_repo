@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "four_wheel_steering_msgs",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "four_wheel_steering_msgs-1.1.1.jar",
+          "url": "four_wheel_steering_msgs-1.1.1.jar",
+          "size": 2222,
+          "sha512": "4075779bb525e9799156f8e9874658ab632d2c64d2db13e77c1e5beb88374aa05cd75051f37cdf7cf6557b230bdf874baefbc5b9601c24de234be216ea8b5679",
+          "sha256": "01720faedf936ead3a0fb818a297e4e2f931bfe22783318dab5a0e2bf361a70d",
+          "sha1": "b60ff745957f45c245aa1b9bbd88d537e4ae8ddf",
+          "md5": "d505b5166b8e5b5df97c8a3c74a1cc09"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "four_wheel_steering_msgs-1.1.1.jar",
+          "url": "four_wheel_steering_msgs-1.1.1.jar",
+          "size": 2222,
+          "sha512": "4075779bb525e9799156f8e9874658ab632d2c64d2db13e77c1e5beb88374aa05cd75051f37cdf7cf6557b230bdf874baefbc5b9601c24de234be216ea8b5679",
+          "sha256": "01720faedf936ead3a0fb818a297e4e2f931bfe22783318dab5a0e2bf361a70d",
+          "sha1": "b60ff745957f45c245aa1b9bbd88d537e4ae8ddf",
+          "md5": "d505b5166b8e5b5df97c8a3c74a1cc09"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "four_wheel_steering_msgs-1.1.1-sources.jar",
+          "url": "four_wheel_steering_msgs-1.1.1-sources.jar",
+          "size": 1992,
+          "sha512": "04b4ba749d1adea7ca43b0514c0842f1d766ace133fa525b52ac775bdc99431d8372d7add3689e476920c830b0ba4ddb834da2093bce937ef8c112e31d0252e0",
+          "sha256": "a1538f5bef49faafd0bca9289e4e19818412c3d7961a7f2970e477827c5b252f",
+          "sha1": "d9277fb8d18dd4d3e669eff2882b8114df8e5d7a",
+          "md5": "b60f79436170fd3e217ae8beff9f1cb0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "four_wheel_steering_msgs-1.1.1-javadoc.jar",
+          "url": "four_wheel_steering_msgs-1.1.1-javadoc.jar",
+          "size": 111967,
+          "sha512": "113c0743c38c7f84291dd34af793aeca3a38331d3198c82fa6eef17f965726a805b1180618d72b156b0a5b4be4c8279387ad166ec7ee86ba996e93159728e005",
+          "sha256": "168f6b0d16cdabe880aef15b96ad7b780deaad47a048a93a9390a9f1a9a84c30",
+          "sha1": "36618fdb9e8d353fd32a8fb3a455d8ff172122bc",
+          "md5": "a2dd4ded1a3889639996ea07a9882951"
+        }
+      ]
+    }
+  ]
+}

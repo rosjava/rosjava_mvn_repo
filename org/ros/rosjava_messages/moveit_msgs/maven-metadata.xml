@@ -2,13 +2,15 @@
 <metadata>
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>moveit_msgs</artifactId>
-  <version>0.5.2</version>
   <versioning>
+    <latest>0.11.1</latest>
+    <release>0.11.1</release>
     <versions>
       <version>0.5.2</version>
       <version>0.5.3</version>
       <version>0.6.1</version>
+      <version>0.11.1</version>
     </versions>
-    <lastUpdated>20150218095409</lastUpdated>
+    <lastUpdated>20220629164221</lastUpdated>
   </versioning>
 </metadata>

@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "turtlesim",
+    "version": "0.10.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_srvs",
+          "version": {
+            "requires": "1.11.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "turtlesim-0.10.2.jar",
+          "url": "turtlesim-0.10.2.jar",
+          "size": 6997,
+          "sha512": "1e2c781bf6d99b8539530c5a05f618448cbb4e7cced75dd205cce7ecbd5b910ac85adcd4ae02baf2d319dc018d23c7d4507b88586a4eef71865b91c4f1617856",
+          "sha256": "5a3942d8ea16645290ff53dc628af48b5ac88470ae382a5bf20aafeb33fd4d4c",
+          "sha1": "1701e77e1bda6e78fb80d4583d6d698f5352141c",
+          "md5": "62eef5dce5ab35269ddf31ff1798a416"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_srvs",
+          "version": {
+            "requires": "1.11.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "turtlesim-0.10.2.jar",
+          "url": "turtlesim-0.10.2.jar",
+          "size": 6997,
+          "sha512": "1e2c781bf6d99b8539530c5a05f618448cbb4e7cced75dd205cce7ecbd5b910ac85adcd4ae02baf2d319dc018d23c7d4507b88586a4eef71865b91c4f1617856",
+          "sha256": "5a3942d8ea16645290ff53dc628af48b5ac88470ae382a5bf20aafeb33fd4d4c",
+          "sha1": "1701e77e1bda6e78fb80d4583d6d698f5352141c",
+          "md5": "62eef5dce5ab35269ddf31ff1798a416"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "turtlesim-0.10.2-sources.jar",
+          "url": "turtlesim-0.10.2-sources.jar",
+          "size": 5788,
+          "sha512": "b3249dadf86be5e0958a82ca76b0f379793c1ef30e30441e092725bf6e740914929e4445ebc843a76121451e7c3203017534c921561b437be507d16beeeab764",
+          "sha256": "7bde25759f362d75bde36a39988929d3c13bf906230209e912951bc7e709ec1a",
+          "sha1": "6422a76b8684c99a8a5a3a2a28580f44b67bc9d3",
+          "md5": "9b1ec350f08af1dbe1a04e2de789497b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "turtlesim-0.10.2-javadoc.jar",
+          "url": "turtlesim-0.10.2-javadoc.jar",
+          "size": 144656,
+          "sha512": "655b77d6179206f6004231789ceae4f005b5f904411a1e3145a41a4f6706b1d521929a1558685b18313409b4c3d1c8b178221ab0e469116f8b73421d1a907c52",
+          "sha256": "9af35ab70af637de476f5d7e60cdce990919595ecc94bcaa248f231d34b341fc",
+          "sha1": "3e633a73d8c83d09d5d1154a601d206cbddefb34",
+          "md5": "f3f34bd4cd255886f27a5866de288eea"
+        }
+      ]
+    }
+  ]
+}

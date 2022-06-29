@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "trajectory_msgs",
+    "version": "1.13.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "trajectory_msgs-1.13.0.jar",
+          "url": "trajectory_msgs-1.13.0.jar",
+          "size": 3068,
+          "sha512": "1fc5c56e02e3b7b4742ffcea37d0afb077d091dbd6da97374c5340a1739b9294597268be07d8a8e417228606a4b96187dead488808546d697d1e1f0a1544f788",
+          "sha256": "9a27a7c4324530ee1a3078fe9b1a722123ab1d5c3fb226e1451c1c071bc648f3",
+          "sha1": "3045d2aa3e88ed04a15105c6111307047599a9a3",
+          "md5": "d31b8adc32e99ada31af6a17ec772bd0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "trajectory_msgs-1.13.0.jar",
+          "url": "trajectory_msgs-1.13.0.jar",
+          "size": 3068,
+          "sha512": "1fc5c56e02e3b7b4742ffcea37d0afb077d091dbd6da97374c5340a1739b9294597268be07d8a8e417228606a4b96187dead488808546d697d1e1f0a1544f788",
+          "sha256": "9a27a7c4324530ee1a3078fe9b1a722123ab1d5c3fb226e1451c1c071bc648f3",
+          "sha1": "3045d2aa3e88ed04a15105c6111307047599a9a3",
+          "md5": "d31b8adc32e99ada31af6a17ec772bd0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "trajectory_msgs-1.13.0-sources.jar",
+          "url": "trajectory_msgs-1.13.0-sources.jar",
+          "size": 2512,
+          "sha512": "61d2166e6b6d5927551ada01813f94e5ebc43883dce9a3627a29c1ba6c518d8e9ddbc4866fa0723f3e4d94f60502dda29bdaa06c41f3c6a76cb4b5bbb27143e5",
+          "sha256": "6e15c201418256948d67fce3c0f9d1ff1fb6b4d939d70df8e4f9bc78a49e129b",
+          "sha1": "f85edaa2e6916f11452c9786fb5eb3f19ef7b747",
+          "md5": "03aaf03a2c384a14430e3a628537b37f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "trajectory_msgs-1.13.0-javadoc.jar",
+          "url": "trajectory_msgs-1.13.0-javadoc.jar",
+          "size": 117497,
+          "sha512": "d9d407a10c5191243ca9e60bb5ca709ba7de62dbbd42348cb7076739f75eb57434731bbc71c941c1113a69a65df17de45cbd343a4c2708a4656e701377bf271f",
+          "sha256": "b60afc44b08de68deae7e427d5c04277b53d01e69ae4f92aae9aff1f5a7ca723",
+          "sha1": "f8bf5d938640262bb30a4b25e06133f9721697b0",
+          "md5": "88e730a81812ec53283f4b21beb47e36"
+        }
+      ]
+    }
+  ]
+}

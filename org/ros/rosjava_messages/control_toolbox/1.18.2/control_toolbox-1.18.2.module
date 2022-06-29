@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "control_toolbox",
+    "version": "1.18.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "control_msgs",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "dynamic_reconfigure",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "control_toolbox-1.18.2.jar",
+          "url": "control_toolbox-1.18.2.jar",
+          "size": 1632,
+          "sha512": "a4b7dd47e7779acd6967c9a609d65791d028e9149fabd6972ca28361d38ea6abf308e99db45ffc82fa774a8e63fafeeee47de03571d5b5b8fca62e46d881e47d",
+          "sha256": "48c82bba4739be4713124259b2974213d99e8b58a51fba3add832ca9eb749072",
+          "sha1": "e331462ecef4622b7fe8156975eee2cbf95e8a9e",
+          "md5": "72048cfb39956d00d82b1bfb05390ae3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "control_msgs",
+          "version": {
+            "requires": "1.5.2"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "dynamic_reconfigure",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "control_toolbox-1.18.2.jar",
+          "url": "control_toolbox-1.18.2.jar",
+          "size": 1632,
+          "sha512": "a4b7dd47e7779acd6967c9a609d65791d028e9149fabd6972ca28361d38ea6abf308e99db45ffc82fa774a8e63fafeeee47de03571d5b5b8fca62e46d881e47d",
+          "sha256": "48c82bba4739be4713124259b2974213d99e8b58a51fba3add832ca9eb749072",
+          "sha1": "e331462ecef4622b7fe8156975eee2cbf95e8a9e",
+          "md5": "72048cfb39956d00d82b1bfb05390ae3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "control_toolbox-1.18.2-sources.jar",
+          "url": "control_toolbox-1.18.2-sources.jar",
+          "size": 1420,
+          "sha512": "47a60581bede67bfcad43b0af80339b69f518da1b0301d9e3d3454796d02e280575f4cef4e82b4d7b5a76b78a700f4781416041d3ad304f0a93cf6a329f9218d",
+          "sha256": "5378bfc5d79ee694b441399561b042050e751d11cb27bbf023dddfe648ff4da1",
+          "sha1": "467e79bff187a5c89409424a71516aec9ffe7287",
+          "md5": "352f911fcf71f8602e14ce17fffad47a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "control_toolbox-1.18.2-javadoc.jar",
+          "url": "control_toolbox-1.18.2-javadoc.jar",
+          "size": 112102,
+          "sha512": "152b9f2ab4a92fa8b85a83ec936262432f89c1413b5b24b32b092dc1197b056ae708188960c5bad435a09585648d20a7195b57c5ee4c0a8c86775c7b2140c2d9",
+          "sha256": "bbf6e028cd5f34105ae2aac0fd76ba868a41ef1c69c5709262736f5a49c8f048",
+          "sha1": "436a51dc1b3583a2f388ca8b98b1300bf7016ad5",
+          "md5": "42b385a2b5b4014abece8e3429f39540"
+        }
+      ]
+    }
+  ]
+}

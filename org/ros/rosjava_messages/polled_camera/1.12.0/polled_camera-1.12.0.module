@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "polled_camera",
+    "version": "1.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "polled_camera-1.12.0.jar",
+          "url": "polled_camera-1.12.0.jar",
+          "size": 2562,
+          "sha512": "b816f7c6513be9b6e5d543b14fe1a0f8b919210df92ca9be5d9773064bcbd67f911c3b9bdfe001d46b7995a896a16eac83a9e4e5bc4ffd0e70504ad82dff3ea2",
+          "sha256": "3e35452fb3c8363bf4d188569d49d412d8cc1cffe8f7d26ac5636b2c52d665c1",
+          "sha1": "f9627c3b64156b35a60a018f7f14088e897c77ba",
+          "md5": "a04b55a4606852f9a11cde876b69671c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "polled_camera-1.12.0.jar",
+          "url": "polled_camera-1.12.0.jar",
+          "size": 2562,
+          "sha512": "b816f7c6513be9b6e5d543b14fe1a0f8b919210df92ca9be5d9773064bcbd67f911c3b9bdfe001d46b7995a896a16eac83a9e4e5bc4ffd0e70504ad82dff3ea2",
+          "sha256": "3e35452fb3c8363bf4d188569d49d412d8cc1cffe8f7d26ac5636b2c52d665c1",
+          "sha1": "f9627c3b64156b35a60a018f7f14088e897c77ba",
+          "md5": "a04b55a4606852f9a11cde876b69671c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "polled_camera-1.12.0-sources.jar",
+          "url": "polled_camera-1.12.0-sources.jar",
+          "size": 2234,
+          "sha512": "251f8ff66d15c4817f3b6c40fa342b4d94d19e2f4add41cfd76c81227013439cdbc9b490fbf9805a8e9bbdbd0295497d378796c73641368d8c4bc8a911ee67cd",
+          "sha256": "e12f0d570df051a0183cec927b19ed21eb269f239c9c1338390f7848c59c5ea7",
+          "sha1": "4becabe79c7c09ca6006bd64a80a93f4480082f9",
+          "md5": "26328ed4d961ac735736d6a65e738d95"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "polled_camera-1.12.0-javadoc.jar",
+          "url": "polled_camera-1.12.0-javadoc.jar",
+          "size": 113499,
+          "sha512": "42ef8695054692067e8a0a8b16a419039bd812fea2755b29b8a51c44b48cf047e019ad3236ffc00495f60c77d2e5ff99674fc1d1ace4b4e9e55a6535949a9a26",
+          "sha256": "207911471e96ef894562ee39f0cdcb303e26cec707928f3033a55a267af46dff",
+          "sha1": "e0fee2e5318cda281c5ccdf12500b7986654025b",
+          "md5": "bef40222d344a9436822f7b5e23a6daa"
+        }
+      ]
+    }
+  ]
+}

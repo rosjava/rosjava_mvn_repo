@@ -3,7 +3,8 @@
   <groupId>org.ros.rosjava_messages</groupId>
   <artifactId>tf2_msgs</artifactId>
   <versioning>
-    <release>0.5.20</release>
+    <latest>0.7.5</latest>
+    <release>0.7.5</release>
     <versions>
       <version>0.4.7</version>
       <version>0.4.9</version>
@@ -14,7 +15,8 @@
       <version>0.5.15</version>
       <version>0.5.17</version>
       <version>0.5.20</version>
+      <version>0.7.5</version>
     </versions>
-    <lastUpdated>20190322141407</lastUpdated>
+    <lastUpdated>20220629164222</lastUpdated>
   </versioning>
 </metadata>

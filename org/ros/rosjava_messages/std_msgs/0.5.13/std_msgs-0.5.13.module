@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "std_msgs",
+    "version": "0.5.13",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "std_msgs-0.5.13.jar",
+          "url": "std_msgs-0.5.13.jar",
+          "size": 14770,
+          "sha512": "89ad846097109502a03dd0fd0af2477b71f33d345d82120ba659147c0d9e1d16a38fc5e2508e6c31d9d3d7978b62534ab4b08ab99c88f995067737c0319764b2",
+          "sha256": "136c8382cecc6085b67ae6e04c0a902575fe8345c1ec5b96379fec22890cd9ca",
+          "sha1": "85ca4843d76c7d7e512261834bbaa3cfe8a0fd44",
+          "md5": "0ae26df47c03b6a626bb4a9ba1300b56"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "std_msgs-0.5.13.jar",
+          "url": "std_msgs-0.5.13.jar",
+          "size": 14770,
+          "sha512": "89ad846097109502a03dd0fd0af2477b71f33d345d82120ba659147c0d9e1d16a38fc5e2508e6c31d9d3d7978b62534ab4b08ab99c88f995067737c0319764b2",
+          "sha256": "136c8382cecc6085b67ae6e04c0a902575fe8345c1ec5b96379fec22890cd9ca",
+          "sha1": "85ca4843d76c7d7e512261834bbaa3cfe8a0fd44",
+          "md5": "0ae26df47c03b6a626bb4a9ba1300b56"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "std_msgs-0.5.13-sources.jar",
+          "url": "std_msgs-0.5.13-sources.jar",
+          "size": 12082,
+          "sha512": "1834aee9e53d5ade2f25e3ea3263edf1651f0cbcd96b89db5594b436653eda8eaf2d792484e12ea3beff351098e733e0649828929de10ea03756b341f6246d4d",
+          "sha256": "a636f0b1ed01ba1105addefb88cfe99fe2eb0fe894455df5862f2f6656aa8b7e",
+          "sha1": "6d1dd094026c1a007ed81c59328de34d85f0b597",
+          "md5": "8dfe341711c665eedfb873f8314941d9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "std_msgs-0.5.13-javadoc.jar",
+          "url": "std_msgs-0.5.13-javadoc.jar",
+          "size": 188014,
+          "sha512": "502e8d65140746221c1375d1c45d46e1218582c9b6203dedff0f8559e80a94d746843578441740f586881b32af5ebfe28a03223d448d8fcca85a457794ad4bad",
+          "sha256": "748a5d599092a633a8ee4ad87194ec9253747f3b1ebb5f570ed2ed73f00fbba7",
+          "sha1": "fdec48280d9259812a56a314b7b19af13c0a6a4a",
+          "md5": "cbdeca60a3aa8b71ab9f82fc487722eb"
+        }
+      ]
+    }
+  ]
+}

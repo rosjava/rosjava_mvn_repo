@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "nodelet",
+    "version": "1.10.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nodelet-1.10.0.jar",
+          "url": "nodelet-1.10.0.jar",
+          "size": 3969,
+          "sha512": "03b73bbfb3d2fcce8bd8ba54383ad6b45720796f41a8ffbcf7259133f6c5ac42f33f2220b446d889314ef615bff2fd8ad06b424d8a0bc5339f9f9ca01aed1f50",
+          "sha256": "13e97e8a2f7d7d073d93a6a401be2b1adc58d72a22161f9656430031f355fb2c",
+          "sha1": "c07ceee517131ed09cf8d0423b64f0587974794f",
+          "md5": "20cd5f9d3f527af806377c7045d82b55"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nodelet-1.10.0.jar",
+          "url": "nodelet-1.10.0.jar",
+          "size": 3969,
+          "sha512": "03b73bbfb3d2fcce8bd8ba54383ad6b45720796f41a8ffbcf7259133f6c5ac42f33f2220b446d889314ef615bff2fd8ad06b424d8a0bc5339f9f9ca01aed1f50",
+          "sha256": "13e97e8a2f7d7d073d93a6a401be2b1adc58d72a22161f9656430031f355fb2c",
+          "sha1": "c07ceee517131ed09cf8d0423b64f0587974794f",
+          "md5": "20cd5f9d3f527af806377c7045d82b55"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nodelet-1.10.0-sources.jar",
+          "url": "nodelet-1.10.0-sources.jar",
+          "size": 3292,
+          "sha512": "b0b85d9eb08f62b7cf28cd921ec22148793b9c41c8d61e3fe947f0f6e74ad93eebeff91c99703935a1893c3863e26128e275d52c1b0af57d4c9125af99a7f862",
+          "sha256": "5811d9c5aaa7d37eee301756726444b67e2f326ffeb3ce64470ba177163d28d4",
+          "sha1": "dd8282d6b5b0404f693be4d9f71454f8a19bb154",
+          "md5": "8e21ceeead8804d6df07a7d8b3b53f9e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "nodelet-1.10.0-javadoc.jar",
+          "url": "nodelet-1.10.0-javadoc.jar",
+          "size": 126299,
+          "sha512": "189e471686c787108942d5afa1668eb8f4ec9e7496924ca46cf6164dd169957be9cfe2f1eb287628418a19c13f8f0f4284cee3d5dd73c6b1c9a83f6091199692",
+          "sha256": "337db35b4eaf15c21a35610f7fe7e95b9efd2437a8bfe6ccf0ac173e0e183198",
+          "sha1": "9edc133a5f900fb662c6a0b542e05f39f5e79aa8",
+          "md5": "56c252f2e0893578496c49ebba119b61"
+        }
+      ]
+    }
+  ]
+}

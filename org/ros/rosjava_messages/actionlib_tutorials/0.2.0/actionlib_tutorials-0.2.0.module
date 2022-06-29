@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "actionlib_tutorials",
+    "version": "0.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib",
+          "version": {
+            "requires": "1.13.2"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "actionlib_tutorials-0.2.0.jar",
+          "url": "actionlib_tutorials-0.2.0.jar",
+          "size": 8752,
+          "sha512": "03ab72703739110e8cd4930ee2e67e6e032828dfbcb3299a67d303ab0c985d8615e443e39bfb1be298fdb2d0047dada3a35fbd066c94ea77d7d7bf6795bc2a51",
+          "sha256": "c452ed3418d5ad90fd2baf26df7b74f6e273640b1be1967facc22b20cd9afae5",
+          "sha1": "8e61ff0c4c658407f967c9dcd64815890f4623ba",
+          "md5": "0b4ad54142520470178643ae889ed3af"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib",
+          "version": {
+            "requires": "1.13.2"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "actionlib_tutorials-0.2.0.jar",
+          "url": "actionlib_tutorials-0.2.0.jar",
+          "size": 8752,
+          "sha512": "03ab72703739110e8cd4930ee2e67e6e032828dfbcb3299a67d303ab0c985d8615e443e39bfb1be298fdb2d0047dada3a35fbd066c94ea77d7d7bf6795bc2a51",
+          "sha256": "c452ed3418d5ad90fd2baf26df7b74f6e273640b1be1967facc22b20cd9afae5",
+          "sha1": "8e61ff0c4c658407f967c9dcd64815890f4623ba",
+          "md5": "0b4ad54142520470178643ae889ed3af"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "actionlib_tutorials-0.2.0-sources.jar",
+          "url": "actionlib_tutorials-0.2.0-sources.jar",
+          "size": 7305,
+          "sha512": "365708e2a1995890b4d9e8bfcd578d1ee06f5115168d7c7e93d080be6683291542e9a809ee587dcc498f0ae0ff4b8f6cb0326b1106cf0a8188cf392db9a34446",
+          "sha256": "59809a6ca64806eef639e541bc0a92b1f247951654566a38c0a36c85c84c7514",
+          "sha1": "b79dc8c7192ee9b21c7ddb7dea37b38bf5cb0c93",
+          "md5": "92a71cdbf80f86a8df528fc2bb1d4f37"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "actionlib_tutorials-0.2.0-javadoc.jar",
+          "url": "actionlib_tutorials-0.2.0-javadoc.jar",
+          "size": 147854,
+          "sha512": "e74d943c902af9800172e62813767aa2b34e100bed68510686a1a693c53c83b56e60edc68e70eec832185abc119fd4b0786977f7d41fe23d4a1eedc8a4041c38",
+          "sha256": "96c55df8c8019887b889e8be598cddf9597a7796b22fd3e1ea560ca60aaa7c88",
+          "sha1": "aa453648bf71e14eabddf60c700f7a773e3c6d5e",
+          "md5": "da1ed39cd8fc23a96c26333370ceeda9"
+        }
+      ]
+    }
+  ]
+}

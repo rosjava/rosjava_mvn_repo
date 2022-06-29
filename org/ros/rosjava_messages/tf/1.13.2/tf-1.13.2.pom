@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.ros.rosjava_messages</groupId>
+  <artifactId>tf</artifactId>
+  <version>1.13.2</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.ros.rosjava_messages</groupId>
+      <artifactId>geometry_msgs</artifactId>
+      <version>1.13.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ros.rosjava_messages</groupId>
+      <artifactId>std_msgs</artifactId>
+      <version>0.5.13</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ros.rosjava_messages</groupId>
+      <artifactId>sensor_msgs</artifactId>
+      <version>1.13.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.ros.rosjava_messages</groupId>
+      <artifactId>roscpp</artifactId>
+      <version>1.15.9</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

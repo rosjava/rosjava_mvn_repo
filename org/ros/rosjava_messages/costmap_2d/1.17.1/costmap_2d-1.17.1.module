@@ -1,0 +1,216 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "costmap_2d",
+    "version": "1.17.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "nav_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "map_msgs",
+          "version": {
+            "requires": "1.14.1"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "dynamic_reconfigure",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "visualization_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "costmap_2d-1.17.1.jar",
+          "url": "costmap_2d-1.17.1.jar",
+          "size": 952,
+          "sha512": "a948315d135c1ccfa95dff1c547a4a8db02aaa8fdefd22c3ad86b6c9820a1e9a86fdbf421800bc199b9748e9b6e341e8f99c3c2285e9b2b0b21cefaf46c41bf8",
+          "sha256": "5da475cadc4d66d95c6d3e5ed4e0e884234dd0793f7b5adf264945ca55626f0e",
+          "sha1": "71d62f65a52aceb786fb4c5764d7d447d18e39f9",
+          "md5": "72a87265dc23702e99ba1f23050ed39c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "nav_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "map_msgs",
+          "version": {
+            "requires": "1.14.1"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "dynamic_reconfigure",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "visualization_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "costmap_2d-1.17.1.jar",
+          "url": "costmap_2d-1.17.1.jar",
+          "size": 952,
+          "sha512": "a948315d135c1ccfa95dff1c547a4a8db02aaa8fdefd22c3ad86b6c9820a1e9a86fdbf421800bc199b9748e9b6e341e8f99c3c2285e9b2b0b21cefaf46c41bf8",
+          "sha256": "5da475cadc4d66d95c6d3e5ed4e0e884234dd0793f7b5adf264945ca55626f0e",
+          "sha1": "71d62f65a52aceb786fb4c5764d7d447d18e39f9",
+          "md5": "72a87265dc23702e99ba1f23050ed39c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "costmap_2d-1.17.1-sources.jar",
+          "url": "costmap_2d-1.17.1-sources.jar",
+          "size": 803,
+          "sha512": "b39bc69cb4238d7df893da79b068234980a83ceb4b68228fbe9132ee1126ffa478547f63512a2a675af5b38af8c5bee0ea65695628374717b8cea35f04da2aa3",
+          "sha256": "58ac55373631b66e6462cac0e66e65a5c808d2dbabd5ea1fe20ba7fedbda5671",
+          "sha1": "77eb0c1dec25ff3c5767acad58d84dd4b78437d3",
+          "md5": "96d52a0ff3136933fe6523856b8755be"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "costmap_2d-1.17.1-javadoc.jar",
+          "url": "costmap_2d-1.17.1-javadoc.jar",
+          "size": 108234,
+          "sha512": "9b1dbf09504ac5bed071462656064e4cd94c46acc9d0ee0a4e43592b540c2d0007904eb06b6b532473b193e52fa4c9890075b771e8f6ab8b0f51fae1d4d3a1f5",
+          "sha256": "ee8c21287f1ec5752309687a0fdbeeb7edf0b18e95bdaea9dd49b4745b927cc4",
+          "sha1": "5de4caa12058fc42de789bb8be45a72045fea966",
+          "md5": "2432171ac14deeb1244eccdf1a8fcd8b"
+        }
+      ]
+    }
+  ]
+}

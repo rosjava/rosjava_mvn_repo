@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "controller_manager_msgs",
+    "version": "0.19.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "controller_manager_msgs-0.19.4.jar",
+          "url": "controller_manager_msgs-0.19.4.jar",
+          "size": 13201,
+          "sha512": "30e548104e7de714aeff2f17b43dd935de553f9c0fc8688336fd04a87a92e4ee9b1da852143ab8c3fbe11a66c48003b181d61b2b9deccef8c5ecb0a9fed44006",
+          "sha256": "bfb2ef175d2fa0c3163debc623c6a61b0922a0f20f258b70275c52afbd2a0710",
+          "sha1": "cf65a37d28da8eded4bac8f0aa406c9e27442624",
+          "md5": "78fb696351e184aff1400658bc94f456"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "controller_manager_msgs-0.19.4.jar",
+          "url": "controller_manager_msgs-0.19.4.jar",
+          "size": 13201,
+          "sha512": "30e548104e7de714aeff2f17b43dd935de553f9c0fc8688336fd04a87a92e4ee9b1da852143ab8c3fbe11a66c48003b181d61b2b9deccef8c5ecb0a9fed44006",
+          "sha256": "bfb2ef175d2fa0c3163debc623c6a61b0922a0f20f258b70275c52afbd2a0710",
+          "sha1": "cf65a37d28da8eded4bac8f0aa406c9e27442624",
+          "md5": "78fb696351e184aff1400658bc94f456"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "controller_manager_msgs-0.19.4-sources.jar",
+          "url": "controller_manager_msgs-0.19.4-sources.jar",
+          "size": 11217,
+          "sha512": "713e8c113a31473d0d0b4545b87f199a5a469494656bc9d9e4464b1cd03912e339449c46d3f67bbeddc6e7f69b2b5c61f9feb75aa2659d7d347096fee2010b31",
+          "sha256": "db4dd679e1575b5863f342c39c11822ed44f45f24f9c098c75a3cc1df73341b8",
+          "sha1": "c1461ba39896645981b90f11025ee4af5b67141b",
+          "md5": "54070856e325a9fc811499199c76ddc0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "controller_manager_msgs-0.19.4-javadoc.jar",
+          "url": "controller_manager_msgs-0.19.4-javadoc.jar",
+          "size": 162528,
+          "sha512": "463d831c38bef399fa57510116444cade097dd6695360731bf5b33387a19defeee4ab9db1dfac26c205df9ebac27f7c793fa3d252b9882414631345a55f2c5db",
+          "sha256": "97c751ee62cb0ffe11ec72b2c684db1242a6444a6a2209f2df256452f6edd87a",
+          "sha1": "0dd7a029a01bf8cd562e80ee8ca5e4184a819a99",
+          "md5": "bd6a9df7ae46eadd24a07254a2c0ad93"
+        }
+      ]
+    }
+  ]
+}

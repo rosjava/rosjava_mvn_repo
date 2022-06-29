@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "map_msgs",
+    "version": "1.14.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "nav_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "map_msgs-1.14.1.jar",
+          "url": "map_msgs-1.14.1.jar",
+          "size": 9794,
+          "sha512": "9a620a2f21fd873efdabeecd68ae602df0af72c1ee255cff288a4a604bbed8ed147322259c16eadcae5f6e49a721a29fafa65dd8f53f048160972159ce68dfca",
+          "sha256": "41feb653d584630808450aaa04b4f6aa41c1a6d3bfc307ce94f5db29ea86e6f7",
+          "sha1": "048474d60b954a79bb8cd8b2d2bd22bb229e4af8",
+          "md5": "b26165353e9da482d61073a9bf7d08f0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "nav_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "map_msgs-1.14.1.jar",
+          "url": "map_msgs-1.14.1.jar",
+          "size": 9794,
+          "sha512": "9a620a2f21fd873efdabeecd68ae602df0af72c1ee255cff288a4a604bbed8ed147322259c16eadcae5f6e49a721a29fafa65dd8f53f048160972159ce68dfca",
+          "sha256": "41feb653d584630808450aaa04b4f6aa41c1a6d3bfc307ce94f5db29ea86e6f7",
+          "sha1": "048474d60b954a79bb8cd8b2d2bd22bb229e4af8",
+          "md5": "b26165353e9da482d61073a9bf7d08f0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "map_msgs-1.14.1-sources.jar",
+          "url": "map_msgs-1.14.1-sources.jar",
+          "size": 8025,
+          "sha512": "e18e17ec7c1db58499e15b3d324d4815014c139e3659c99719eb8abbdfca60d11a2a4b503e2497ade4309827eea91d608cb7507d010946d21d41f935f45d618e",
+          "sha256": "bb04634225e3eb2b14591a93075b84972dea3ab091e3c32bf8c1a68c7880b7a4",
+          "sha1": "07c65558bed7ab2e104a41d6ea52f278a2cd3796",
+          "md5": "03c9f32cc42b37f8c4cc52708180be88"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "map_msgs-1.14.1-javadoc.jar",
+          "url": "map_msgs-1.14.1-javadoc.jar",
+          "size": 158733,
+          "sha512": "97ec71e5a9fff72507d1d5472b420040008381b28a720060a9e2569df7250e21805f3446e20fad55ce4bf290c86d23662026bdd5e83e8001658cc7dd044f6cd5",
+          "sha256": "f3fe149745020bf8faf3a3824e9d02372ecd0eed7072479e74cd6baea8329b64",
+          "sha1": "9fdf374a3a4ab1720a45cbeb0ffaebe94f003de2",
+          "md5": "88786c1622ff7256a94d9bf2f57eb6a2"
+        }
+      ]
+    }
+  ]
+}
