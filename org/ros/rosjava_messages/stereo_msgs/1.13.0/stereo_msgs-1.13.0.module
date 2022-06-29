@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "stereo_msgs",
+    "version": "1.13.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stereo_msgs-1.13.0.jar",
+          "url": "stereo_msgs-1.13.0.jar",
+          "size": 1502,
+          "sha512": "88fa42ac883b11dc57c1145a3d3df3de7e85d3fc7a205a8620aa1f8d87cd2349aab102e076ab8539ef1d029fa0f493502fdfdc739e9000e8c7326dee63e23daf",
+          "sha256": "ed69d025aca1f9b311a9155667be9fc44c595ac7ab5a93f6ad4063898ad305d8",
+          "sha1": "d9edf8f504797ca1871e9a832a712496b8583ca4",
+          "md5": "81a8b8f38b30fdfb95d515d71f4856d1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "stereo_msgs-1.13.0.jar",
+          "url": "stereo_msgs-1.13.0.jar",
+          "size": 1502,
+          "sha512": "88fa42ac883b11dc57c1145a3d3df3de7e85d3fc7a205a8620aa1f8d87cd2349aab102e076ab8539ef1d029fa0f493502fdfdc739e9000e8c7326dee63e23daf",
+          "sha256": "ed69d025aca1f9b311a9155667be9fc44c595ac7ab5a93f6ad4063898ad305d8",
+          "sha1": "d9edf8f504797ca1871e9a832a712496b8583ca4",
+          "md5": "81a8b8f38b30fdfb95d515d71f4856d1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "stereo_msgs-1.13.0-sources.jar",
+          "url": "stereo_msgs-1.13.0-sources.jar",
+          "size": 1333,
+          "sha512": "23d1b280c5283982534ccac4c48abad0fdb1ec2c696f0f3bcd76c558738f4605793af4168ca151fedd4ef8ccdf01285e1e4cefb390539b9e2756e1fd2e3ef9b1",
+          "sha256": "555dfbf8458bc495dfb796b2a9a04fcc52a0ffaebcab6c735f10c1a378a17214",
+          "sha1": "c835eb2c73057875db3ebb9b303c3eb075700001",
+          "md5": "075bce80dd8f31e3a4f5ac8f744960da"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "stereo_msgs-1.13.0-javadoc.jar",
+          "url": "stereo_msgs-1.13.0-javadoc.jar",
+          "size": 108838,
+          "sha512": "bf8b8b930860169b9bba4c00479e4394010f2fc563d9bf7d868fce981c7a9bf530cbcb6e111e86255fa3406d894b234e1b6fde135019d81f3e342bd1e2e8aa2f",
+          "sha256": "35d1286799c8c51e2197016b5aaa580ba35f22fc5d341cea1f9065a8ec081352",
+          "sha1": "a357975a82623c3587b2611c5a77623931cac3ef",
+          "md5": "0369ed626cdce171e81ba30b2d7954fb"
+        }
+      ]
+    }
+  ]
+}

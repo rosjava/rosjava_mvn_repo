@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "rosserial_msgs",
+    "version": "0.9.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "rosserial_msgs-0.9.1.jar",
+          "url": "rosserial_msgs-0.9.1.jar",
+          "size": 3006,
+          "sha512": "a8e683463cc111439f0a76c398792acddeb45155ed8705370e1a11ba9184904025bd7557b1c21269fa4158d9952362effda9869cc7d90e9e4380f1ac61ee7bde",
+          "sha256": "8904b39d33b1721e657043ea1b1886ed4b3c04ae8e3e618167ca898867e8c659",
+          "sha1": "103e7d341302077f3120465972d597a64271834e",
+          "md5": "3c12dfd60e69c05d986831d470213e03"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rosserial_msgs-0.9.1.jar",
+          "url": "rosserial_msgs-0.9.1.jar",
+          "size": 3006,
+          "sha512": "a8e683463cc111439f0a76c398792acddeb45155ed8705370e1a11ba9184904025bd7557b1c21269fa4158d9952362effda9869cc7d90e9e4380f1ac61ee7bde",
+          "sha256": "8904b39d33b1721e657043ea1b1886ed4b3c04ae8e3e618167ca898867e8c659",
+          "sha1": "103e7d341302077f3120465972d597a64271834e",
+          "md5": "3c12dfd60e69c05d986831d470213e03"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rosserial_msgs-0.9.1-sources.jar",
+          "url": "rosserial_msgs-0.9.1-sources.jar",
+          "size": 2483,
+          "sha512": "b8030c0e9067ae8f5285865dfe453a0254146377b37a7b147dbf16c3d4b2cba0b4708c5813257b129cfa49c41ee6b27785769ccfde7abc8b8e5fd60752c707c8",
+          "sha256": "41ef6282b952ba7d738e3862b23045fa57747bf152a24f1ae863a849022c0116",
+          "sha1": "7795062e72c2419730c70e693779e47901497e25",
+          "md5": "08bb71082ce95639eb9a1b307b793f8a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rosserial_msgs-0.9.1-javadoc.jar",
+          "url": "rosserial_msgs-0.9.1-javadoc.jar",
+          "size": 119756,
+          "sha512": "d1148f5520d345d7e142ff33441fefb2ada5d1e32df1b8951ea252269737f9eb4e10daccd867637cd919f204d8658d54e4d17ba9ef4300855e54f1888a8f1d3d",
+          "sha256": "b1acd57afe9b15997f7036ff4e546248d23e7bb6ba5b808c00963d096f2447b9",
+          "sha1": "0e445861d67994402d4c11fbe82e398b6f39d357",
+          "md5": "0c81fe6c181e66c86ff022ae744af6b3"
+        }
+      ]
+    }
+  ]
+}

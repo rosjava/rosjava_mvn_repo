@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "rosgraph_msgs",
+    "version": "1.11.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rosgraph_msgs-1.11.3.jar",
+          "url": "rosgraph_msgs-1.11.3.jar",
+          "size": 2633,
+          "sha512": "58120cfb67114770e8643ffc8ff380bdc92865ff25f53daad2fca8438c17cb276e73ac21de3c36428121feef1b1d5050ae2339e7fd30373402906aaca0de3c8a",
+          "sha256": "4e68413acc8dee40a370253458a229cef56215d39a175b09df9189f6b8dbb767",
+          "sha1": "00deb9a056e42e7a1ca7d88cb0397e10bec67356",
+          "md5": "60edd279b7f8140765343dc82b34417b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rosgraph_msgs-1.11.3.jar",
+          "url": "rosgraph_msgs-1.11.3.jar",
+          "size": 2633,
+          "sha512": "58120cfb67114770e8643ffc8ff380bdc92865ff25f53daad2fca8438c17cb276e73ac21de3c36428121feef1b1d5050ae2339e7fd30373402906aaca0de3c8a",
+          "sha256": "4e68413acc8dee40a370253458a229cef56215d39a175b09df9189f6b8dbb767",
+          "sha1": "00deb9a056e42e7a1ca7d88cb0397e10bec67356",
+          "md5": "60edd279b7f8140765343dc82b34417b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rosgraph_msgs-1.11.3-sources.jar",
+          "url": "rosgraph_msgs-1.11.3-sources.jar",
+          "size": 2155,
+          "sha512": "eff6ca429056c0ef0d2da2bd20a64302df6ff6fec334c9cf6810929dc125ca02a0fdd12f556f3f7a27e542b197693526449e9855ac20a2b74dcd4f31de93d6ac",
+          "sha256": "52f090fb772b767a9679c383ccd14e6a3c7ebb87e7f3cd7cb4911cfeda7a6812",
+          "sha1": "bffc10cf4bff8b8795d96debe45654bfba41991d",
+          "md5": "dd6e518eedbdb14ec170a71ee96084c3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rosgraph_msgs-1.11.3-javadoc.jar",
+          "url": "rosgraph_msgs-1.11.3-javadoc.jar",
+          "size": 116014,
+          "sha512": "2365c382f67f4eadca9be966574217be08ad44183af4152921167c94959729b9a0ac76db83d9929c825ef67adfa487ccb4df55eeec983b9aebc32ac52bb251f9",
+          "sha256": "a4c33290b3d56d722607e853d7b75a1da25e64e84b6276c06bd2fd8bafccdf90",
+          "sha1": "8a8cdf4e2b5759c3faa2ac16f6a65df1deba7254",
+          "md5": "488430474d38c25cbb6618542f46ad18"
+        }
+      ]
+    }
+  ]
+}

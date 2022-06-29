@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "pcl_msgs",
+    "version": "0.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pcl_msgs-0.3.0.jar",
+          "url": "pcl_msgs-0.3.0.jar",
+          "size": 3365,
+          "sha512": "f85bc95f60de96b7cb60d19404efce670247ec51705b4c6e843b3dd989718307d8c0293e93ae84bf465ec82eeb5b205184ebc2bac7cb5db30e8c8a38bd2aaa82",
+          "sha256": "c0c4f4d7ab437ba6e37f0f7bb358682517bea608d8be5cd8088298c7051a251d",
+          "sha1": "9ce1c9a503fb5c3908e0bc0503e76b79f1fec0ab",
+          "md5": "365c1e1731099887302eaa29d18aed40"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pcl_msgs-0.3.0.jar",
+          "url": "pcl_msgs-0.3.0.jar",
+          "size": 3365,
+          "sha512": "f85bc95f60de96b7cb60d19404efce670247ec51705b4c6e843b3dd989718307d8c0293e93ae84bf465ec82eeb5b205184ebc2bac7cb5db30e8c8a38bd2aaa82",
+          "sha256": "c0c4f4d7ab437ba6e37f0f7bb358682517bea608d8be5cd8088298c7051a251d",
+          "sha1": "9ce1c9a503fb5c3908e0bc0503e76b79f1fec0ab",
+          "md5": "365c1e1731099887302eaa29d18aed40"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pcl_msgs-0.3.0-sources.jar",
+          "url": "pcl_msgs-0.3.0-sources.jar",
+          "size": 2775,
+          "sha512": "d09daffca767e3dfe518f446d3adc1d21dfff378030920b6151dcdfc5473486c00fba52f8254d7dec6ccca7b0d78d1c0264f51c563d4ff103b4703a993b28c7b",
+          "sha256": "8c10ac0aa54cce1a2417b2f8533e42eebc554a49f2f0b04afed783bdab04c956",
+          "sha1": "97aceee843f8690fc5cb26577e1d7e5750e8ec07",
+          "md5": "ffeac158642f5a387c23cbddea1216c3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pcl_msgs-0.3.0-javadoc.jar",
+          "url": "pcl_msgs-0.3.0-javadoc.jar",
+          "size": 123204,
+          "sha512": "5f0a1357f97ca1bca7603b4f1f8a90a03d44c9789941fa0c8b0522632cd8e16bda458789f60f7f3a396e41b8c46e510614b63063e15c30afa1275e3905f7b623",
+          "sha256": "1269ac49c191f1db56f270c5a89b1f3fa774c6431e46244b4833d046eb329ee0",
+          "sha1": "750266a9f8bd754734baee49edf2072ad66947d3",
+          "md5": "7ac18d54f19661723c59ae1b04185a78"
+        }
+      ]
+    }
+  ]
+}

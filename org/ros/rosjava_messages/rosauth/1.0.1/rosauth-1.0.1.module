@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "rosauth",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rosauth-1.0.1.jar",
+          "url": "rosauth-1.0.1.jar",
+          "size": 1903,
+          "sha512": "7cb7da4bb28b3fd3862907d602dd73c9a2bf2e9f50354001386d593c7e52c281cbc4ce83fc7291805cb039c211421904f3fd9c69e47a339b3bd7aca99d290772",
+          "sha256": "fbe7137736feb1006a05abf52109bf1140cc8655d09ee38f66e701328c19e853",
+          "sha1": "f9959b25ade6c6993fdb342a6b64c1c8a44358f9",
+          "md5": "7d927208e2c467dca0e26a7e4feeefa0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rosauth-1.0.1.jar",
+          "url": "rosauth-1.0.1.jar",
+          "size": 1903,
+          "sha512": "7cb7da4bb28b3fd3862907d602dd73c9a2bf2e9f50354001386d593c7e52c281cbc4ce83fc7291805cb039c211421904f3fd9c69e47a339b3bd7aca99d290772",
+          "sha256": "fbe7137736feb1006a05abf52109bf1140cc8655d09ee38f66e701328c19e853",
+          "sha1": "f9959b25ade6c6993fdb342a6b64c1c8a44358f9",
+          "md5": "7d927208e2c467dca0e26a7e4feeefa0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rosauth-1.0.1-sources.jar",
+          "url": "rosauth-1.0.1-sources.jar",
+          "size": 1643,
+          "sha512": "b3ae8e6969f3a0a4545524e5761328a3d883e2d7cc6fc9725660b25ad062bc2e357ff8b3e46641129edb981540c0ce7f738a03511d4eac2975606aac8613f425",
+          "sha256": "63d41fe5ae0144fd59ffc9d2141480ddc1f1b3000a14e639ce9c6fb3083280cf",
+          "sha1": "6be488b3c54da6d3b7dc670fcc24703538935662",
+          "md5": "79836cf21ca1a585aaa7432ef5945e9a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rosauth-1.0.1-javadoc.jar",
+          "url": "rosauth-1.0.1-javadoc.jar",
+          "size": 112841,
+          "sha512": "ea42e748b375e99d3f957e3d72938c1b7526087701b98e5c24fee11028ef730a80554447a0e3817ce4b1a29b4c5e03b8a998494d54f3b55f6e97886c2710c1f7",
+          "sha256": "c8ee9f291b9912e7b62aaed3119e0968fb32bfb4e16ade2a24bc6fc1269e4c30",
+          "sha1": "834e799b59b4f4e81a1f67a1d8b8e8fef5ccf3b5",
+          "md5": "29f0231c9ade6432c95600361ef38e66"
+        }
+      ]
+    }
+  ]
+}

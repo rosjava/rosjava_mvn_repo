@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "move_base_msgs",
+    "version": "1.14.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "move_base_msgs-1.14.1.jar",
+          "url": "move_base_msgs-1.14.1.jar",
+          "size": 4973,
+          "sha512": "55be14e4388d3ff2a9ee6fcec5f63d980f8d2880c5348b40ef8b0a9e84ce4165796e79d8794b370a01c6261f7677073ec949a6ec9e278927fb2cd41a22393c78",
+          "sha256": "8793e880ea53fc2219dec466cd35fae832cc07ec2b4d3d21408405de3c9e335c",
+          "sha1": "021b58b59357dad241b7181c043cd54eb757450f",
+          "md5": "de2fc15cce624012818af7a0aeac6280"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "move_base_msgs-1.14.1.jar",
+          "url": "move_base_msgs-1.14.1.jar",
+          "size": 4973,
+          "sha512": "55be14e4388d3ff2a9ee6fcec5f63d980f8d2880c5348b40ef8b0a9e84ce4165796e79d8794b370a01c6261f7677073ec949a6ec9e278927fb2cd41a22393c78",
+          "sha256": "8793e880ea53fc2219dec466cd35fae832cc07ec2b4d3d21408405de3c9e335c",
+          "sha1": "021b58b59357dad241b7181c043cd54eb757450f",
+          "md5": "de2fc15cce624012818af7a0aeac6280"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "move_base_msgs-1.14.1-sources.jar",
+          "url": "move_base_msgs-1.14.1-sources.jar",
+          "size": 4141,
+          "sha512": "8d33d45c4be196ac509857fb571223297878c351e928c6d512d0219922bebba1cf0205eef5ce7e5cc5ad1f5f3eeaa580e334ae1e43a61c8dc5aa8938be0cef2a",
+          "sha256": "db7b0854b657165b4370121400783054183dd79b8d21d97a5c31e0b9f22f0ec8",
+          "sha1": "d77b7599dc300c8869d8ef0a7b2a3fef1299f49b",
+          "md5": "1aaea59c02116c899b92cd2ca15c39c1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "move_base_msgs-1.14.1-javadoc.jar",
+          "url": "move_base_msgs-1.14.1-javadoc.jar",
+          "size": 128558,
+          "sha512": "be70be3ba034b1b44a61e53533189b93cd3e5a458bfaf24f5457eb8bc58a88586f0e1f60175647d6254984108bbbd1a5fca0e61ef8e65dfaceea345a617b7ff5",
+          "sha256": "f349ee79bf28d2b7dc1af34be326569c604721bc54ef4c7a1d15beea9806670d",
+          "sha1": "38edd5ed8a9fda2a3f2e637a4c1c0a9e5caaa113",
+          "md5": "2152305cd56607824034770bf4158c94"
+        }
+      ]
+    }
+  ]
+}

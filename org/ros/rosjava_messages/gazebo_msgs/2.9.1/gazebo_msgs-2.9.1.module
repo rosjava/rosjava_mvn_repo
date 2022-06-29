@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "gazebo_msgs",
+    "version": "2.9.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_srvs",
+          "version": {
+            "requires": "1.11.3"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "trajectory_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gazebo_msgs-2.9.1.jar",
+          "url": "gazebo_msgs-2.9.1.jar",
+          "size": 46815,
+          "sha512": "868db44c87cbc7aa82a2e826e2b905b9ffe769d04f7735e05ffe764dbd22734822b207eaa2d19327f393fdf9e15bb5fa42a58ccf020de1cef9b6dc660680a3bd",
+          "sha256": "077260dfc104eba9a5d01c523688e4eb840cd69edbfbfeca0de65058cfa993d6",
+          "sha1": "412f32ae6aa68ef5a7d4c3cc7f0d1d777a452431",
+          "md5": "fc37eaf7f61106ddb22d99448d4fd8e7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_srvs",
+          "version": {
+            "requires": "1.11.3"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "trajectory_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gazebo_msgs-2.9.1.jar",
+          "url": "gazebo_msgs-2.9.1.jar",
+          "size": 46815,
+          "sha512": "868db44c87cbc7aa82a2e826e2b905b9ffe769d04f7735e05ffe764dbd22734822b207eaa2d19327f393fdf9e15bb5fa42a58ccf020de1cef9b6dc660680a3bd",
+          "sha256": "077260dfc104eba9a5d01c523688e4eb840cd69edbfbfeca0de65058cfa993d6",
+          "sha1": "412f32ae6aa68ef5a7d4c3cc7f0d1d777a452431",
+          "md5": "fc37eaf7f61106ddb22d99448d4fd8e7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gazebo_msgs-2.9.1-sources.jar",
+          "url": "gazebo_msgs-2.9.1-sources.jar",
+          "size": 39082,
+          "sha512": "e836eb2b1455949151cf176143e83851742d2011f98b2853bd25408bfd8ee7e192ae267b1d883a248f9c11c6f9d8c7bd5a63e01ddc8ef378c054cfe7cbe31485",
+          "sha256": "847ffa2a67eb1acda04d98a6a2442133110723ad12120d3d52b4d7d84b60309f",
+          "sha1": "d15e3d5fb42c715c3c64037d0605f7739a975107",
+          "md5": "566f0d510ad2741461771b259b483476"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "gazebo_msgs-2.9.1-javadoc.jar",
+          "url": "gazebo_msgs-2.9.1-javadoc.jar",
+          "size": 311916,
+          "sha512": "2c097a332ddb8d4a1edb0464d02c4495f38038e0607702dd951fd87741441bf3e9a533e2186906f359fc35f44f94ab0da5e833e40cbf5b8f04e73798b6cd4236",
+          "sha256": "dca8971e7247508385df71e483a1f9c4f662d608813435ef958730043e5057d6",
+          "sha1": "e41c536f4e633661c4019866e17afbe8f90ca9eb",
+          "md5": "2a49fb98b79373ac913dc0367396d8e4"
+        }
+      ]
+    }
+  ]
+}

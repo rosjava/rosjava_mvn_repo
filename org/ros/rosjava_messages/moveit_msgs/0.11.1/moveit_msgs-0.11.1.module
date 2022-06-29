@@ -1,0 +1,216 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "moveit_msgs",
+    "version": "0.11.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "object_recognition_msgs",
+          "version": {
+            "requires": "0.4.2"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "octomap_msgs",
+          "version": {
+            "requires": "0.3.5"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "shape_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "trajectory_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "moveit_msgs-0.11.1.jar",
+          "url": "moveit_msgs-0.11.1.jar",
+          "size": 101508,
+          "sha512": "ba9da997c84ef21a68f18e1cc71178acfcbf765f2473f804ff46739cec54ff2a2acf09b46e803e4067672e358c352907eed39cc22d7bf4cb4efeb738357e9985",
+          "sha256": "2de612779e5e517e4924eca8e8c96a722bb88d5a997fe4131da22d21f5e060e5",
+          "sha1": "a5cd9e43230dd706a4cbb896d5a8e16d5bf27fe4",
+          "md5": "d36fe7f896f94abdc1fdf903a35e5814"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "object_recognition_msgs",
+          "version": {
+            "requires": "0.4.2"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "octomap_msgs",
+          "version": {
+            "requires": "0.3.5"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "shape_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "trajectory_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "moveit_msgs-0.11.1.jar",
+          "url": "moveit_msgs-0.11.1.jar",
+          "size": 101508,
+          "sha512": "ba9da997c84ef21a68f18e1cc71178acfcbf765f2473f804ff46739cec54ff2a2acf09b46e803e4067672e358c352907eed39cc22d7bf4cb4efeb738357e9985",
+          "sha256": "2de612779e5e517e4924eca8e8c96a722bb88d5a997fe4131da22d21f5e060e5",
+          "sha1": "a5cd9e43230dd706a4cbb896d5a8e16d5bf27fe4",
+          "md5": "d36fe7f896f94abdc1fdf903a35e5814"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "moveit_msgs-0.11.1-sources.jar",
+          "url": "moveit_msgs-0.11.1-sources.jar",
+          "size": 84300,
+          "sha512": "c36cd5fea5039b3985a7de048942bb40fc21f1f85ffced72efe45007fb25067e6a1095b6ca14f8964c495b618e4d445e481c3530fb2cce142982225d6378d76a",
+          "sha256": "32ae2ceed707b97567be11dd7eb7add4ff0c0051b59d92874f08c759a78328c3",
+          "sha1": "01613018f6c050ccef35571ae5a109a0b75dafba",
+          "md5": "1bc6554a29fa7955c8cd4226b1170d45"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "moveit_msgs-0.11.1-javadoc.jar",
+          "url": "moveit_msgs-0.11.1-javadoc.jar",
+          "size": 556732,
+          "sha512": "3dc1a2543beb1684d5af27358c593800e1377f0f489323e311121e0444de5d767cb1ec6bed2768ea41c8b6169c388db59b609fc3a33a4eff65a7ef4e90fa2586",
+          "sha256": "dfeb018104b4ad80ec1a19e2c8187b44e6dfe63da04f7f0722f5970783d20a05",
+          "sha1": "026310e6edd0ae080e75f6c1d404377a078b0e58",
+          "md5": "7324d8c953fa8f33e4279702346b4ecf"
+        }
+      ]
+    }
+  ]
+}

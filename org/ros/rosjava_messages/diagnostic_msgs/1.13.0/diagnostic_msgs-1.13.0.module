@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "diagnostic_msgs",
+    "version": "1.13.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "diagnostic_msgs-1.13.0.jar",
+          "url": "diagnostic_msgs-1.13.0.jar",
+          "size": 6067,
+          "sha512": "cd6a8b5ff69b0f3dcaa14e0e3267adddc2c2595810a37957bcbc77f04979ebf91822a36818cb52f8ffee1615eb48075a99dd3b106a3d863c72f1f789322e4fdd",
+          "sha256": "ad93783465f38e7df3af684f08a256b2f712e68145d6ab6c18c89f69ba84090e",
+          "sha1": "1ae34f3b597d33e528839f8069e6a51b6fad5a0f",
+          "md5": "a7a353e1dab3adb02401296c06cd5cfb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "diagnostic_msgs-1.13.0.jar",
+          "url": "diagnostic_msgs-1.13.0.jar",
+          "size": 6067,
+          "sha512": "cd6a8b5ff69b0f3dcaa14e0e3267adddc2c2595810a37957bcbc77f04979ebf91822a36818cb52f8ffee1615eb48075a99dd3b106a3d863c72f1f789322e4fdd",
+          "sha256": "ad93783465f38e7df3af684f08a256b2f712e68145d6ab6c18c89f69ba84090e",
+          "sha1": "1ae34f3b597d33e528839f8069e6a51b6fad5a0f",
+          "md5": "a7a353e1dab3adb02401296c06cd5cfb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "diagnostic_msgs-1.13.0-sources.jar",
+          "url": "diagnostic_msgs-1.13.0-sources.jar",
+          "size": 5155,
+          "sha512": "d3b51770c50f75d773ff1400ef6127a474b8daf002970fffe8dac99055069d38862e3e2daf3ab3465e9410d1f086c1190dfe4d29cb0b1492c2d9d37310e643dd",
+          "sha256": "893681190367794343e3caa9c0c9dab954327255885bf28b14d2351ab8627d1c",
+          "sha1": "f7c67328e28a20930697dc8598af6dd9ddae480f",
+          "md5": "037381541691c3a38df3ecf3856824fa"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "diagnostic_msgs-1.13.0-javadoc.jar",
+          "url": "diagnostic_msgs-1.13.0-javadoc.jar",
+          "size": 129255,
+          "sha512": "40306a97293e63988c57ef8dede51438479a59b5df416ba21763ee4b62fbe9ea5caa3d3c63399cf313d40480b7f7724e206706972b92e716b65cf935e011c117",
+          "sha256": "3700f5a0be07a45bd48bc3a0aae5f0a58722f9dbbe6dbcfa4fd81d5f9e0445b7",
+          "sha1": "bf7aaf5c7a79567c03be3c866d541238e2c1842c",
+          "md5": "17ee983408cc2abe92252f538a91ff1e"
+        }
+      ]
+    }
+  ]
+}

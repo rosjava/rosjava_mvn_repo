@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "octomap_msgs",
+    "version": "0.3.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "octomap_msgs-0.3.5.jar",
+          "url": "octomap_msgs-0.3.5.jar",
+          "size": 4205,
+          "sha512": "a86c53a71459f001ad8d1f4315eed2e9aa6b93e5d75abea9a0d66f41eb8b7595affdb01115871a49ebee1511d0b9e91ab1bdaca1a564c103ca30de0bb8c4b964",
+          "sha256": "4fd1eea8ba49a782b1916f0904254edcea9ec5e303c05bcb69df00b650a13cb9",
+          "sha1": "06779d61a74be701a7a902dda138fda05705a09d",
+          "md5": "6c5937ee4f52af94ac551941464cb82c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "octomap_msgs-0.3.5.jar",
+          "url": "octomap_msgs-0.3.5.jar",
+          "size": 4205,
+          "sha512": "a86c53a71459f001ad8d1f4315eed2e9aa6b93e5d75abea9a0d66f41eb8b7595affdb01115871a49ebee1511d0b9e91ab1bdaca1a564c103ca30de0bb8c4b964",
+          "sha256": "4fd1eea8ba49a782b1916f0904254edcea9ec5e303c05bcb69df00b650a13cb9",
+          "sha1": "06779d61a74be701a7a902dda138fda05705a09d",
+          "md5": "6c5937ee4f52af94ac551941464cb82c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "octomap_msgs-0.3.5-sources.jar",
+          "url": "octomap_msgs-0.3.5-sources.jar",
+          "size": 3535,
+          "sha512": "ecf7d8cbbacb46734384ba926a3a8309aa3d0e72e92246c88e10717b90dbc396b45f23c144c1f5c5841ae717139790a72f9036f7347bc6c5bf785cbeb8420bf7",
+          "sha256": "80025ec0f6e3155a425123e24a877d2cb8b6d90a86253c8c0b0af7d7c808d3a9",
+          "sha1": "c67e044fccf5dc165ef721ecc2416c3f9ca09b8d",
+          "md5": "813072e1d14251333bc05ce410ee0822"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "octomap_msgs-0.3.5-javadoc.jar",
+          "url": "octomap_msgs-0.3.5-javadoc.jar",
+          "size": 124818,
+          "sha512": "eaf712653740d7fb90234350dfbb0d1ec4330ec7322cc7bb28a6bf93d2973084b8400b591083ad489cac4a05b903970a84dcd3e0f734d0f8a7b30d2137e4cf74",
+          "sha256": "bfce196439d6e50163542c94767d0f24d5219730f02eec58432922b517e08b95",
+          "sha1": "be51367944fa6d90311730622fddae53cad8b52f",
+          "md5": "31955de5ab67808cf9aa4c94515d48f3"
+        }
+      ]
+    }
+  ]
+}

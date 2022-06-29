@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "rosserial_arduino",
+    "version": "0.9.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "rosserial_msgs",
+          "version": {
+            "requires": "0.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rosserial_arduino-0.9.1.jar",
+          "url": "rosserial_arduino-0.9.1.jar",
+          "size": 1972,
+          "sha512": "78c4a5391208fc0daa6528b7dd1bb9d3568e899df3c03b9f43f19bbfd98a09e5e35ab0649b9395287178eae8c4fb584f1948e5ed04defdd00a82a8263d941916",
+          "sha256": "b7fe2c5215b1100b542d4e574b3d4542c1bdc769a06c563c05d4760188b9cd69",
+          "sha1": "f75b26d0ab4acd8862fd9b8935384b73e0732142",
+          "md5": "0681f2e3c956f675858d34e189c75f1b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "rosserial_msgs",
+          "version": {
+            "requires": "0.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rosserial_arduino-0.9.1.jar",
+          "url": "rosserial_arduino-0.9.1.jar",
+          "size": 1972,
+          "sha512": "78c4a5391208fc0daa6528b7dd1bb9d3568e899df3c03b9f43f19bbfd98a09e5e35ab0649b9395287178eae8c4fb584f1948e5ed04defdd00a82a8263d941916",
+          "sha256": "b7fe2c5215b1100b542d4e574b3d4542c1bdc769a06c563c05d4760188b9cd69",
+          "sha1": "f75b26d0ab4acd8862fd9b8935384b73e0732142",
+          "md5": "0681f2e3c956f675858d34e189c75f1b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rosserial_arduino-0.9.1-sources.jar",
+          "url": "rosserial_arduino-0.9.1-sources.jar",
+          "size": 1678,
+          "sha512": "a8ede2db6b223b1ad4ca965537ce910b0f522afa394a9df36076a769939288caaf98df6169c5168bba58fbf50f048b7fdbd83cf531aa6b686ea308be32897a48",
+          "sha256": "0264e796bfb9bc4da50d44cc95f3e8d79cda90dd1562cf98f646ba8487a387ae",
+          "sha1": "e5fb646e44055bb342c0d26055e73ed9f0b5588b",
+          "md5": "c3f38d11dced933a4992b9fa856e0cf8"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rosserial_arduino-0.9.1-javadoc.jar",
+          "url": "rosserial_arduino-0.9.1-javadoc.jar",
+          "size": 115094,
+          "sha512": "9b4a9c4c82cfdf4f8c99558b89e15f73c2de20cade79ae42c8f3f6336d9fc4010a51ce6a0b2eff97fe8ea27b8707f21f332ed5a42da804b1f89882875747fc64",
+          "sha256": "b699b2d98b0e3d6089efd2e367109b04a9f4e061d01ec858e93e270e5746f56c",
+          "sha1": "ff9121d79ed9749f08da11c65d9cf38f85f676bb",
+          "md5": "fce26fd971e040f5687c55e24c24f459"
+        }
+      ]
+    }
+  ]
+}

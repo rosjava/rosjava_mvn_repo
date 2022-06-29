@@ -1,0 +1,230 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "robot_localization",
+    "version": "2.6.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geographic_msgs",
+          "version": {
+            "requires": "0.5.5"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "nav_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_srvs",
+          "version": {
+            "requires": "1.11.3"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "nodelet",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "diagnostic_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "robot_localization-2.6.8.jar",
+          "url": "robot_localization-2.6.8.jar",
+          "size": 8022,
+          "sha512": "dd49791bf8e0517d60b2b13f108f33e3ba40faea6c942abb68d608ed64c935dc32db1f0d3387ceb4fda819b467341c6b54fe5914038e407faec48135bbe99041",
+          "sha256": "1329aaf6fa3749a98c420569d6ebeaacf60a8cb4d5a812beee179f25b108823c",
+          "sha1": "2daad71b182ddddb054152334377023ba0801256",
+          "md5": "82cb89de4c0c968920625dcf927ea16a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geographic_msgs",
+          "version": {
+            "requires": "0.5.5"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "nav_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_srvs",
+          "version": {
+            "requires": "1.11.3"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "nodelet",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "diagnostic_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "robot_localization-2.6.8.jar",
+          "url": "robot_localization-2.6.8.jar",
+          "size": 8022,
+          "sha512": "dd49791bf8e0517d60b2b13f108f33e3ba40faea6c942abb68d608ed64c935dc32db1f0d3387ceb4fda819b467341c6b54fe5914038e407faec48135bbe99041",
+          "sha256": "1329aaf6fa3749a98c420569d6ebeaacf60a8cb4d5a812beee179f25b108823c",
+          "sha1": "2daad71b182ddddb054152334377023ba0801256",
+          "md5": "82cb89de4c0c968920625dcf927ea16a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "robot_localization-2.6.8-sources.jar",
+          "url": "robot_localization-2.6.8-sources.jar",
+          "size": 6783,
+          "sha512": "4602a95ae880edae4e565b4f77334db9d67d3d860fb687c802987b06b6ea78f7ee5f9f5f39c6907f0f0003a37aaf84f2373d2deb4785632cf1220794d749a8f3",
+          "sha256": "11f6240e5e09a5e76354853338c77e9293a060d8c65771d740e200f921674f04",
+          "sha1": "5360cfd3a0a9a2e48421866dfef7f6bc1e6d3a76",
+          "md5": "a095f8c76df06105fa196a840d3d4c79"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "robot_localization-2.6.8-javadoc.jar",
+          "url": "robot_localization-2.6.8-javadoc.jar",
+          "size": 147643,
+          "sha512": "e7790820f264527ae49c25d6ce1fd559c8d4fab8a07055563fa47757bed813f141fa99b0649fe117f79b7e89c2a3d593d0415f99ee5e6af132d06e66acd3602f",
+          "sha256": "3088095faa7dfa6917831f21e63ba2fb2ad54d6b3941fe7d7522c527caaada99",
+          "sha1": "bfc2882c1a836a7b26eb46267d111fa13d54be7b",
+          "md5": "e2c0ba43327f299b6173fcfd991e8657"
+        }
+      ]
+    }
+  ]
+}

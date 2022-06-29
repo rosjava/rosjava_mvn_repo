@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "tf",
+    "version": "1.13.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tf-1.13.2.jar",
+          "url": "tf-1.13.2.jar",
+          "size": 1808,
+          "sha512": "afa6328066d565521b4ed547851edadbf12e325d0b8efcccaa125e09bcd7d0757e93f04fdb368e1153bab0608c346906f38d546440caf36d4faa3dceff1a0f45",
+          "sha256": "1ebef1e6c95332b801fbb9a7d6777ffadb1061e2e5a70e99b6ce43865387e317",
+          "sha1": "7c0197dc816130f5822567bf1aee7feeb6e5c83f",
+          "md5": "5c9178f1f28cbba94345ed362279cced"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tf-1.13.2.jar",
+          "url": "tf-1.13.2.jar",
+          "size": 1808,
+          "sha512": "afa6328066d565521b4ed547851edadbf12e325d0b8efcccaa125e09bcd7d0757e93f04fdb368e1153bab0608c346906f38d546440caf36d4faa3dceff1a0f45",
+          "sha256": "1ebef1e6c95332b801fbb9a7d6777ffadb1061e2e5a70e99b6ce43865387e317",
+          "sha1": "7c0197dc816130f5822567bf1aee7feeb6e5c83f",
+          "md5": "5c9178f1f28cbba94345ed362279cced"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tf-1.13.2-sources.jar",
+          "url": "tf-1.13.2-sources.jar",
+          "size": 1499,
+          "sha512": "fe059f489f0b46a120dc4de8ffe0f38a9977f55d46a71009afa3be61187edb003e477d2dee08237680bf7c4b0b260a3ddd8b2b46b6fbf684b9d824abf2a2027f",
+          "sha256": "172bced8e90775d0415c48764cae6837fbfaf504510398082284d4f4c81ad100",
+          "sha1": "9ee13d02cf74a8af505755f38770471c7fa74303",
+          "md5": "6b42f7282d52cf77ac9bb50d1b565af9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tf-1.13.2-javadoc.jar",
+          "url": "tf-1.13.2-javadoc.jar",
+          "size": 113997,
+          "sha512": "e075db8a69fd8ec4a87f242af6eed4f26ed01cb44f42a141a42c125fd07153e8b7542c5d9508e35e8bbec1e1169986029dd49067e8c7c7e01de8fd33738f7f06",
+          "sha256": "5c3dfde5e2b99d70b764f0ad90b8c1496d3f06428bf5e63c6455ee9fd02dfe35",
+          "sha1": "6e37184699ae9a5b63ebeb9749fc8b82378e52bf",
+          "md5": "3ef7ebd52775850db385c381471e3d6e"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "dynamic_reconfigure",
+    "version": "1.7.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dynamic_reconfigure-1.7.1.jar",
+          "url": "dynamic_reconfigure-1.7.1.jar",
+          "size": 6696,
+          "sha512": "7c1f4408d2c0606f65f97969eafc56e9ae89867180caa5b34691713a70ba85a8ab328027c3ec358076af4b23515b82cdd3460d2a7b5722ccb1db2e3f9fd672d3",
+          "sha256": "51c6ffcd83fc0df081e649c6decda78a4584c724e26360b38e1b6caacfdefa53",
+          "sha1": "8fb53c0adb94fa2f644f673f66ed966a0b8491a6",
+          "md5": "1da5831f8fd91f30f68958e759ab692a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dynamic_reconfigure-1.7.1.jar",
+          "url": "dynamic_reconfigure-1.7.1.jar",
+          "size": 6696,
+          "sha512": "7c1f4408d2c0606f65f97969eafc56e9ae89867180caa5b34691713a70ba85a8ab328027c3ec358076af4b23515b82cdd3460d2a7b5722ccb1db2e3f9fd672d3",
+          "sha256": "51c6ffcd83fc0df081e649c6decda78a4584c724e26360b38e1b6caacfdefa53",
+          "sha1": "8fb53c0adb94fa2f644f673f66ed966a0b8491a6",
+          "md5": "1da5831f8fd91f30f68958e759ab692a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dynamic_reconfigure-1.7.1-sources.jar",
+          "url": "dynamic_reconfigure-1.7.1-sources.jar",
+          "size": 5384,
+          "sha512": "fe8a34092b427ea2e6dc56b5d5b19affbdbf41842d6cb42ac0a1263195b4af545034ee868715969b3c828ed439d749a7ae85c67094a34b8164ec30b7a89b6a14",
+          "sha256": "db8d1920420fb75d67a9f621215d333313ff35dc273f8f9f18480f0e0f24cf85",
+          "sha1": "7e5044fb21411af97311e12159d49b23e259fd5c",
+          "md5": "92571f8e4c0cf6e3dbb87217b7c74ca3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "dynamic_reconfigure-1.7.1-javadoc.jar",
+          "url": "dynamic_reconfigure-1.7.1-javadoc.jar",
+          "size": 140876,
+          "sha512": "7216405dee94032e4793ff1efb8fe63ac3965136ea1a4f87de6ccb4a859723e0fe6fe8265d475025ecfc31db3abc4d1abcdf934d40c037dac91b34f752bfd011",
+          "sha256": "f9a7b1a927d7ec4717ade0265d2846f05580c1a185d9c34bf37016d96f36d8d9",
+          "sha1": "38864148de5f121a4bb6f25480a222eb27b6450c",
+          "md5": "da7eaa1ba13be5caa953f6d367343005"
+        }
+      ]
+    }
+  ]
+}

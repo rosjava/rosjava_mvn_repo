@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "geographic_msgs",
+    "version": "0.5.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "uuid_msgs",
+          "version": {
+            "requires": "1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "geographic_msgs-0.5.5.jar",
+          "url": "geographic_msgs-0.5.5.jar",
+          "size": 16150,
+          "sha512": "929adfb3034ebb1bbca8146eb556a90c0ba540ec7cede143635c844b67fdf1994360a2a3606e2aaeaaa5ae8eb2e8e010bab2db722031c7027de6e58ffcf7b88c",
+          "sha256": "878b19384396020647f6798310ae3d1236db6eead6bd107a2815b28c480b5607",
+          "sha1": "6367b8654e6e857aca7a6de915bff72207737292",
+          "md5": "2bb465bbd6ec2c2dde40acf9660d102f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "uuid_msgs",
+          "version": {
+            "requires": "1.0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "geographic_msgs-0.5.5.jar",
+          "url": "geographic_msgs-0.5.5.jar",
+          "size": 16150,
+          "sha512": "929adfb3034ebb1bbca8146eb556a90c0ba540ec7cede143635c844b67fdf1994360a2a3606e2aaeaaa5ae8eb2e8e010bab2db722031c7027de6e58ffcf7b88c",
+          "sha256": "878b19384396020647f6798310ae3d1236db6eead6bd107a2815b28c480b5607",
+          "sha1": "6367b8654e6e857aca7a6de915bff72207737292",
+          "md5": "2bb465bbd6ec2c2dde40acf9660d102f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geographic_msgs-0.5.5-sources.jar",
+          "url": "geographic_msgs-0.5.5-sources.jar",
+          "size": 13249,
+          "sha512": "261e400d18b0e4f6bce5c1783c085ce8ac2cdaa9417b52953fc67fb8007dc514996124c1a0e0a64ec2f27ff845d69082eae8876239d66ef6be39abfe93530cdd",
+          "sha256": "aeebf9e44e5b9154a9ae2c76fa9d15cc41ec557aa644cb3483c4266838d48d79",
+          "sha1": "4293de4b71a3dd422677d1f874a4269107311faf",
+          "md5": "699ebc507548e5381b7f5b15fc4d8fc8"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "geographic_msgs-0.5.5-javadoc.jar",
+          "url": "geographic_msgs-0.5.5-javadoc.jar",
+          "size": 177996,
+          "sha512": "5d1ad6eb63dce82c6ff5b050d26680eb26d5863d97a660bf79eb43feee9703f0a63406e17f637ad5f58b5cb6a88f0cc7f011affe0101e2fae61ee38bc7b64a6e",
+          "sha256": "cce9d9951d7d64493be661be4c692ca1f5dea4cec7ac2594036255d29a8399c5",
+          "sha1": "92dcbb78b8debd4f2589ec50c10b19f647e41bd9",
+          "md5": "c825b927c55094227f1e31953906af9a"
+        }
+      ]
+    }
+  ]
+}

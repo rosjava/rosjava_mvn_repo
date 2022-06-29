@@ -1,0 +1,216 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "rviz",
+    "version": "1.14.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "nav_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "map_msgs",
+          "version": {
+            "requires": "1.14.1"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_srvs",
+          "version": {
+            "requires": "1.11.3"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "visualization_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rviz-1.14.4.jar",
+          "url": "rviz-1.14.4.jar",
+          "size": 1529,
+          "sha512": "4026334c62300632a86e7f3d6d1eb4db4d3ed639401ca44464739a01f8893889319d9e2303a80df6a38eb8de43b214c0d3836b184830bae7456972a25ce624b0",
+          "sha256": "277909d7476cc9e34b665dc5b5c12355a23df1e68948ba083c25fee332be9457",
+          "sha1": "9df4a8442af93cfad576b239914c69acc7110f35",
+          "md5": "fb23b3bb7bcc264e9d5eaca75359ba63"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "nav_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "map_msgs",
+          "version": {
+            "requires": "1.14.1"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_srvs",
+          "version": {
+            "requires": "1.11.3"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "visualization_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rviz-1.14.4.jar",
+          "url": "rviz-1.14.4.jar",
+          "size": 1529,
+          "sha512": "4026334c62300632a86e7f3d6d1eb4db4d3ed639401ca44464739a01f8893889319d9e2303a80df6a38eb8de43b214c0d3836b184830bae7456972a25ce624b0",
+          "sha256": "277909d7476cc9e34b665dc5b5c12355a23df1e68948ba083c25fee332be9457",
+          "sha1": "9df4a8442af93cfad576b239914c69acc7110f35",
+          "md5": "fb23b3bb7bcc264e9d5eaca75359ba63"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rviz-1.14.4-sources.jar",
+          "url": "rviz-1.14.4-sources.jar",
+          "size": 1326,
+          "sha512": "2271735b9f394fa9c1f42ecf033d034701eccf1576b4a34c37c8e4c3f6aed7355eb4aeb7686f7dc8088bcee087100e8d5a837804ae6aa8d33e59ff37a445e658",
+          "sha256": "cd70ab97f72054a1fd2ca535f7cd0a4702e09217e38a996bbc9022c7200db7e3",
+          "sha1": "0d08677c85741020371fd38577913f8c1d9a8186",
+          "md5": "da435439042c2478786867d304b0fd6e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rviz-1.14.4-javadoc.jar",
+          "url": "rviz-1.14.4-javadoc.jar",
+          "size": 112000,
+          "sha512": "391912e83cc2b406d9ae7b32787e9cb691f61b3328b8f989f2027086996180ec1094860581e78f60a60233cdd398200344d8090df6afe523b6bd69a4a2cef2ec",
+          "sha256": "3d662c0c5e92a8142efb110affb922e449fbe7ef4b6943996f7e36c2bde993e6",
+          "sha1": "8766c2be8953672863b1b8775caf677affd96225",
+          "md5": "d1a7e3017ccb91ac861d4646c929dee4"
+        }
+      ]
+    }
+  ]
+}

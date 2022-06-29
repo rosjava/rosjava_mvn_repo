@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "laser_assembler",
+    "version": "1.7.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "tf",
+          "version": {
+            "requires": "1.13.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "laser_assembler-1.7.8.jar",
+          "url": "laser_assembler-1.7.8.jar",
+          "size": 3604,
+          "sha512": "e8ad9c8c0335b7aaac4ebd7cab54462a77103c79f8e4ff483a957862f42fcb11c26c800f12cb5200ba74b2e6199f5fb7106a08e20f9725af7eee832aa3c3e625",
+          "sha256": "976feafd7194fc539f33471232c7374ec7fa44991500faa0cb9f2dfab82ba327",
+          "sha1": "66bdb0d79a42fd3c1f145583188cd2ec475ef053",
+          "md5": "f1ed6b83cb96f0bbfd44266858bb6a11"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "roscpp",
+          "version": {
+            "requires": "1.15.9"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "tf",
+          "version": {
+            "requires": "1.13.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "laser_assembler-1.7.8.jar",
+          "url": "laser_assembler-1.7.8.jar",
+          "size": 3604,
+          "sha512": "e8ad9c8c0335b7aaac4ebd7cab54462a77103c79f8e4ff483a957862f42fcb11c26c800f12cb5200ba74b2e6199f5fb7106a08e20f9725af7eee832aa3c3e625",
+          "sha256": "976feafd7194fc539f33471232c7374ec7fa44991500faa0cb9f2dfab82ba327",
+          "sha1": "66bdb0d79a42fd3c1f145583188cd2ec475ef053",
+          "md5": "f1ed6b83cb96f0bbfd44266858bb6a11"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "laser_assembler-1.7.8-sources.jar",
+          "url": "laser_assembler-1.7.8-sources.jar",
+          "size": 3107,
+          "sha512": "fef4e39f70e1570d5bd06c26bbd7c30a36057379461f32be208d9043da80ef8235c14088384bcfac244e2dd389f4a0a5fb81d3cee3f9fe840aa328e04fb67df3",
+          "sha256": "2f44ba5ab3838f4c4c700c5d20c3009db3838a0558cffd03ed7bfba5aec5caf2",
+          "sha1": "6f488aa91ce83193a22903ebafd8c6fcdcd7ee15",
+          "md5": "500f2d3444a997fb04f9fd8f8d27406d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "laser_assembler-1.7.8-javadoc.jar",
+          "url": "laser_assembler-1.7.8-javadoc.jar",
+          "size": 119706,
+          "sha512": "ea904bc5ee010945e3cb11de3a5caa83258998f5697886475bbb5de94bced9024ff99b94b3ce11551b877d7e00146e1535501caee21a5679365f75be019fdadd",
+          "sha256": "badc85b6700f58338efa6df505ae6cdec53af501c54790c7a4c2998c67e6fb5b",
+          "sha1": "b12e369981a62bbda6a7237efa08ae63a719050d",
+          "md5": "7721a1adbd4d28914729116a06ae111e"
+        }
+      ]
+    }
+  ]
+}

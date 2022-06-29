@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "control_msgs",
+    "version": "1.5.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "trajectory_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "control_msgs-1.5.2.jar",
+          "url": "control_msgs-1.5.2.jar",
+          "size": 29564,
+          "sha512": "337aec76ac3eb4ce32e260fc2d234b86ea0723d68c3df7991fed5a336b894dc18fb4838bdeca57cb1e64de19960bda1365ec9d672eb7956abe36e09ec16f6cee",
+          "sha256": "bc2bf98b837765adba9e7d2e083af402739dfb7f5f9ab6cfeeb203b2ce153efe",
+          "sha1": "f54d9304ed38a2e8d12c45c554ec4165e9e151c5",
+          "md5": "0dabcf2dbfaafd643e7b51dad06e7176"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "trajectory_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "control_msgs-1.5.2.jar",
+          "url": "control_msgs-1.5.2.jar",
+          "size": 29564,
+          "sha512": "337aec76ac3eb4ce32e260fc2d234b86ea0723d68c3df7991fed5a336b894dc18fb4838bdeca57cb1e64de19960bda1365ec9d672eb7956abe36e09ec16f6cee",
+          "sha256": "bc2bf98b837765adba9e7d2e083af402739dfb7f5f9ab6cfeeb203b2ce153efe",
+          "sha1": "f54d9304ed38a2e8d12c45c554ec4165e9e151c5",
+          "md5": "0dabcf2dbfaafd643e7b51dad06e7176"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "control_msgs-1.5.2-sources.jar",
+          "url": "control_msgs-1.5.2-sources.jar",
+          "size": 24456,
+          "sha512": "01b0104999c13ab8315974ba06ee61652e0fcfc334885806e4c37284466e60f9125acd0cd2ba07c1d3b3c9257c0e04ae18986892fcf2c716fec193c698949f89",
+          "sha256": "219b318273627ed94ceba03f1512ce6cdf905009050d290300049d9cc27cc64f",
+          "sha1": "a32e62ca9fe3620e9b8b7c906b0bd7c35d38d327",
+          "md5": "ed0833bcd0eba8f9972cb7de02bf4454"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "control_msgs-1.5.2-javadoc.jar",
+          "url": "control_msgs-1.5.2-javadoc.jar",
+          "size": 242049,
+          "sha512": "6c8cd2acef51423126939e0241ad986d36c44ab14e09a793cf4dd496a8e42f512d5c5485a88e94880f35046539e30879df3c6d7e591db58d17c2ed6dfe30b2f9",
+          "sha256": "6996b12fe6fcc17fc16bf91c7f9d9c76da6c19e24d32339de4aa1a7136addc27",
+          "sha1": "bf430050688d32bac17ed7016975f9e6ee5e675e",
+          "md5": "ef8295fd0cb1409ecda439982aa073d7"
+        }
+      ]
+    }
+  ]
+}

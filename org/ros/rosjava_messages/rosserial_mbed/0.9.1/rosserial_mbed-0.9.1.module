@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "rosserial_mbed",
+    "version": "0.9.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "rosserial_msgs",
+          "version": {
+            "requires": "0.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rosserial_mbed-0.9.1.jar",
+          "url": "rosserial_mbed-0.9.1.jar",
+          "size": 1935,
+          "sha512": "c98fc231cd00cdd35d4879a601d6b7edc7f672a857249b3310dc69a55c66a156b5a67c43215e5c55915102bb0661fdee1ff814118eaba0af70d71aa513a223d1",
+          "sha256": "04cc8ed5f1a320803159d0b538583d595f2207efd66ca91b7c573026aec70136",
+          "sha1": "9e504ff248fb112cdaa527326226eecdaffc83f0",
+          "md5": "e41f638e3ac23f393af6bd4840b410da"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "rosserial_msgs",
+          "version": {
+            "requires": "0.9.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rosserial_mbed-0.9.1.jar",
+          "url": "rosserial_mbed-0.9.1.jar",
+          "size": 1935,
+          "sha512": "c98fc231cd00cdd35d4879a601d6b7edc7f672a857249b3310dc69a55c66a156b5a67c43215e5c55915102bb0661fdee1ff814118eaba0af70d71aa513a223d1",
+          "sha256": "04cc8ed5f1a320803159d0b538583d595f2207efd66ca91b7c573026aec70136",
+          "sha1": "9e504ff248fb112cdaa527326226eecdaffc83f0",
+          "md5": "e41f638e3ac23f393af6bd4840b410da"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rosserial_mbed-0.9.1-sources.jar",
+          "url": "rosserial_mbed-0.9.1-sources.jar",
+          "size": 1644,
+          "sha512": "ef04962963656dee089286918cc372cb073e5dcc7d8aed66b476f7e60962590be38e991297b5519a6da12a2b7e7c96d4988398ea5a6d56fdb471a3a576cd276a",
+          "sha256": "699317158c61158de408935ea4416c124a209b8ef0714585469ebbc2ed2abe41",
+          "sha1": "379b75d5f446b7581e946a84acf15f41f310eaed",
+          "md5": "2c41a8a842491b428671188d88c857cc"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rosserial_mbed-0.9.1-javadoc.jar",
+          "url": "rosserial_mbed-0.9.1-javadoc.jar",
+          "size": 115005,
+          "sha512": "f4971d040471c8da51d8055f5cc6a298fe440c5f82b086bb0252356ddabbc34edb60baacc0ae257e53641a33f093309f3924cfc13db8a5cdde0b37c7a3e3b555",
+          "sha256": "a2e77cbe9ee5fd0de9a05e131161abc8b49add72182361ed3d1cc012afb3acc7",
+          "sha1": "95cbb9625bbef6cb4d3ed853820f0a0cb1d309b5",
+          "md5": "02813a73b42386d06f1487097d4077ec"
+        }
+      ]
+    }
+  ]
+}

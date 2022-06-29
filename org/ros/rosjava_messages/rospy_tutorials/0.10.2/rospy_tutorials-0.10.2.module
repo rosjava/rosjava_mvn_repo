@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "rospy_tutorials",
+    "version": "0.10.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rospy_tutorials-0.10.2.jar",
+          "url": "rospy_tutorials-0.10.2.jar",
+          "size": 3676,
+          "sha512": "971956f205c83930ea1de740e0fcc9c447388c4cba82dd8b8274cd9678b86d37acd168fb9796e4c18e500f4352d41b0be73c0e68e554437bb55b37ed5e59ccca",
+          "sha256": "25c7db4f6e9ac15870f8098cc1bca9e60764143e1b971c858791dcbb12f728d1",
+          "sha1": "af20f93a5d86728a1ae40fcabe4ff3ae369fe5a2",
+          "md5": "2107d9f0a239ed3a4bc12989b338a22e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rospy_tutorials-0.10.2.jar",
+          "url": "rospy_tutorials-0.10.2.jar",
+          "size": 3676,
+          "sha512": "971956f205c83930ea1de740e0fcc9c447388c4cba82dd8b8274cd9678b86d37acd168fb9796e4c18e500f4352d41b0be73c0e68e554437bb55b37ed5e59ccca",
+          "sha256": "25c7db4f6e9ac15870f8098cc1bca9e60764143e1b971c858791dcbb12f728d1",
+          "sha1": "af20f93a5d86728a1ae40fcabe4ff3ae369fe5a2",
+          "md5": "2107d9f0a239ed3a4bc12989b338a22e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rospy_tutorials-0.10.2-sources.jar",
+          "url": "rospy_tutorials-0.10.2-sources.jar",
+          "size": 3110,
+          "sha512": "ea524f63dffb7374c15283950da43ebd451f6f7e626b3922dfdb66007b7db9bcf18886c2cb86596f387e1b75250f9fe3ed05ac334e64e6a08c26d51166874373",
+          "sha256": "a28b9cec47f434465f127f68017586971776df4757aa8e1358f70f1781cb98b8",
+          "sha1": "7ddd00ef8792ec15f75559a2b28d08100f7835c7",
+          "md5": "2379e78942d6d287a31c04f91de30714"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rospy_tutorials-0.10.2-javadoc.jar",
+          "url": "rospy_tutorials-0.10.2-javadoc.jar",
+          "size": 124859,
+          "sha512": "a0f4d643472c968adda355f26b97bffbb9bbbd2a1bce1ced5bf908268e16da397c295fcb5346fcec8b0cf88a5fe669c3ad48dc1942ff94b48dbeadc4c2ca1278",
+          "sha256": "daf2a20eb2a9356cb4ca3779e79fd73980d219059174a46062933cc1d0480b00",
+          "sha1": "3a1c84648952aa2494614dd36bbc6f4fdf0d771f",
+          "md5": "123454dea12162305ae1b33ca3b328f1"
+        }
+      ]
+    }
+  ]
+}

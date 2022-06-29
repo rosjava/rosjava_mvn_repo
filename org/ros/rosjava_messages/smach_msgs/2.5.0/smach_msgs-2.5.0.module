@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "smach_msgs",
+    "version": "2.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smach_msgs-2.5.0.jar",
+          "url": "smach_msgs-2.5.0.jar",
+          "size": 2488,
+          "sha512": "664f93fe7187ab347705ba09f4d2fbddac901b90b2644b7f42ce31d5f8e5b6cbb05941c4acdaec517bd48b845ab5240e57a6573376ff56746611b7e7e4330764",
+          "sha256": "12fe0b2889b7f14a5748bc47aedecb3c9e9e5e9d615a6f4b1b02f809a48a4abd",
+          "sha1": "cb138d66c4eb911820369a34170c7cafadd9c1fe",
+          "md5": "b2d4a435e5375fbae2158ee66b4127b9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "smach_msgs-2.5.0.jar",
+          "url": "smach_msgs-2.5.0.jar",
+          "size": 2488,
+          "sha512": "664f93fe7187ab347705ba09f4d2fbddac901b90b2644b7f42ce31d5f8e5b6cbb05941c4acdaec517bd48b845ab5240e57a6573376ff56746611b7e7e4330764",
+          "sha256": "12fe0b2889b7f14a5748bc47aedecb3c9e9e5e9d615a6f4b1b02f809a48a4abd",
+          "sha1": "cb138d66c4eb911820369a34170c7cafadd9c1fe",
+          "md5": "b2d4a435e5375fbae2158ee66b4127b9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "smach_msgs-2.5.0-sources.jar",
+          "url": "smach_msgs-2.5.0-sources.jar",
+          "size": 2034,
+          "sha512": "b2d67f7e0062ecfb5a8f0a50dceb961ff04fd6df2ca0e69f8e5565c28e710d457af1b9ba9350669e2750ff89a1a19873116496e0b38268d29e126b42984efced",
+          "sha256": "8ccf00038045d6bfb8595d47bc08d3d11e6d78e1b3ae94363252cb4dbe1de475",
+          "sha1": "70cc6fe9782cc712551c26b58dc13beb4c8aa41f",
+          "md5": "bb9e5446334b81f55901852ab90bd7da"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "smach_msgs-2.5.0-javadoc.jar",
+          "url": "smach_msgs-2.5.0-javadoc.jar",
+          "size": 114815,
+          "sha512": "c5cfd2a13d6afbfadc70806359e77490e841294445e93e85c66850f36d6cc2afd0988481733c83635cd8132c269acee5f22aaa7922fb03467b2b2fbf0d3f5f00",
+          "sha256": "a3d9baad2b4fd8067af21336548f3755bd07591026a344acad700677f7cfee75",
+          "sha1": "8564bd5b460e9b6a22e7669e645cfad21229a272",
+          "md5": "5d8a839bffc05b030f87b2890b2107fe"
+        }
+      ]
+    }
+  ]
+}

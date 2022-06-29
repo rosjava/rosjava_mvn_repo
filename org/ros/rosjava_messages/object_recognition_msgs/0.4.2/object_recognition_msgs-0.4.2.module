@@ -1,0 +1,174 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "object_recognition_msgs",
+    "version": "0.4.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "shape_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "object_recognition_msgs-0.4.2.jar",
+          "url": "object_recognition_msgs-0.4.2.jar",
+          "size": 11443,
+          "sha512": "d9385c3dd29f3cae9f02d739d46835450a105d0bf882e9c676679d9cb437e6c5c0377ce3ccb1921e6392b4dbd92d2366f1dcd9ddfd6cadad5c0f7b92a886335b",
+          "sha256": "8d56b8d7b9c9711c6e8d07f1b51b1db157f4a9e76a2a0a770d98c820b379e543",
+          "sha1": "af9df7904dcd12140e5dacc7392cd19861b2967c",
+          "md5": "50f697ecfa161a5d7ba3f44bcd20cdd9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "std_msgs",
+          "version": {
+            "requires": "0.5.13"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "sensor_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "shape_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "object_recognition_msgs-0.4.2.jar",
+          "url": "object_recognition_msgs-0.4.2.jar",
+          "size": 11443,
+          "sha512": "d9385c3dd29f3cae9f02d739d46835450a105d0bf882e9c676679d9cb437e6c5c0377ce3ccb1921e6392b4dbd92d2366f1dcd9ddfd6cadad5c0f7b92a886335b",
+          "sha256": "8d56b8d7b9c9711c6e8d07f1b51b1db157f4a9e76a2a0a770d98c820b379e543",
+          "sha1": "af9df7904dcd12140e5dacc7392cd19861b2967c",
+          "md5": "50f697ecfa161a5d7ba3f44bcd20cdd9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "object_recognition_msgs-0.4.2-sources.jar",
+          "url": "object_recognition_msgs-0.4.2-sources.jar",
+          "size": 9703,
+          "sha512": "c70ac4cbd8c42be8ee34cf9ea028b8be67fa45342d4ddadef501df0d458fd8fafe91a41306419bd7a02db5c1bf9bbdd05cbb7badbfa5707dea79cbeea6b107f3",
+          "sha256": "6c648794e137d40664f65c4c18962009ce87c096efe05fcb1bed90fde6011566",
+          "sha1": "351152994b4fcae0d28dbe7b435e9efcef6a0c0a",
+          "md5": "e77ce4e87d044e7102b40dcfc2687720"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "object_recognition_msgs-0.4.2-javadoc.jar",
+          "url": "object_recognition_msgs-0.4.2-javadoc.jar",
+          "size": 153700,
+          "sha512": "96ae60c0ebc173a6faa2a55130044a85440774d4ca26483154e541fc62b1255a747f0e810d17a0dc13c47194b8a4c6d8a9c8c66e9ce43defa22cdf9bb4971790",
+          "sha256": "b9af44e67d1a6962fb18773da76d831011dee1b228b1047d7fc156cb78114679",
+          "sha1": "ed245161844f0f3e3d1dfba4e9926b44d619e852",
+          "md5": "7829dc44f1454b5566689bbd13f7f6ff"
+        }
+      ]
+    }
+  ]
+}

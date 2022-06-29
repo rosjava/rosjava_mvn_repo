@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ros.rosjava_messages",
+    "module": "tf2_msgs",
+    "version": "0.7.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tf2_msgs-0.7.5.jar",
+          "url": "tf2_msgs-0.7.5.jar",
+          "size": 6829,
+          "sha512": "f5642757238134ce1a9a89a47efc6734cdbd4b21f5b01ff9acc1c9fe6e936039b08d1d0336c7bb852c6d0dcf8c2bf1bb57af67cdc00c3048c498fa40d0ca1a03",
+          "sha256": "0540481207eeb656f8a8101dc972e2d2a0b3c922f40d45175b6fe84bf25f041c",
+          "sha1": "0d03ec069115dac0660b9995ee58332e25c26cf2",
+          "md5": "9d6d89501444679895d8730934b0b311"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "geometry_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "org.ros.rosjava_messages",
+          "module": "actionlib_msgs",
+          "version": {
+            "requires": "1.13.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tf2_msgs-0.7.5.jar",
+          "url": "tf2_msgs-0.7.5.jar",
+          "size": 6829,
+          "sha512": "f5642757238134ce1a9a89a47efc6734cdbd4b21f5b01ff9acc1c9fe6e936039b08d1d0336c7bb852c6d0dcf8c2bf1bb57af67cdc00c3048c498fa40d0ca1a03",
+          "sha256": "0540481207eeb656f8a8101dc972e2d2a0b3c922f40d45175b6fe84bf25f041c",
+          "sha1": "0d03ec069115dac0660b9995ee58332e25c26cf2",
+          "md5": "9d6d89501444679895d8730934b0b311"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tf2_msgs-0.7.5-sources.jar",
+          "url": "tf2_msgs-0.7.5-sources.jar",
+          "size": 5592,
+          "sha512": "1b7df8855d62dd77b25f4757a5f55ede8a5381beeae705bab63346cbd164da228f00a74c944470d6dd269f10a5a09bb396b150f1d20bad4d444bcc05ce59609d",
+          "sha256": "8e04123723f1e6e2c267166dc556e5c30169fdd3ee6010e33c496c17589254ef",
+          "sha1": "3099226cab796f47c7b036d00a8d16c01238a8d3",
+          "md5": "11ff80791959192cc0f10dc0986eac84"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "tf2_msgs-0.7.5-javadoc.jar",
+          "url": "tf2_msgs-0.7.5-javadoc.jar",
+          "size": 139490,
+          "sha512": "b9044909b0e59080ad5d8da69c24dd54bfb05b4646426c8efa5f18fa7cd5509b80bfc3da98bb136fa38eccc82bee691bd339835c3e1805aa52ba89266835d546",
+          "sha256": "5da2500b636c4a2f3a033ba84cc87a3d82d5acbe4ae733a10824f06c0c2b57ab",
+          "sha1": "407769fe84f5617b890b80d3a5bdb3e938605849",
+          "md5": "61dcd46781206a5fd35c639c1b39940c"
+        }
+      ]
+    }
+  ]
+}
